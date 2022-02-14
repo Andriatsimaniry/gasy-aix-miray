@@ -1,8 +1,9 @@
 module.exports = {
     siteMetadata: {
-        siteUrl: `https://www.yourdomain.tld`,
+        title: "Le Site Gasy Aix en Provence Miray",
     },
     plugins: [
-
+        "gatsby-plugin-image",
+        "gatsby-plugin-sharp",
     ]
 }
