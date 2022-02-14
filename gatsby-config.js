@@ -1,6 +1,6 @@
 module.exports = {
     siteMetadata: {
-        title: "Le Site Gasy Aix en Provence Miray",
+        title: "Le Site Gasy Aix en Provence Miray G.A.M",
     },
     plugins: [
         "gatsby-plugin-image",
@@ -10,7 +10,8 @@ module.exports = {
             options: {
               name: `blog`,
               path: `${__dirname}/blog`,
-            }
+            },
           },
+          "gatsby-plugin-mdx",
     ]
 }
