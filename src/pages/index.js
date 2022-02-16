@@ -1,7 +1,7 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
-import Video from "../components/video"
+import DogVideo from "../assets/video.mp4"
 
 const IndexPage = () => {
   return (
@@ -14,10 +14,10 @@ const IndexPage = () => {
       <h1>Bienvenue sur le Site du G.A.M</h1>
       <p>Juste une petite video pour commencer !</p>
       
-      <Video
-        videoSrcURL="https://www.youtube.com/embed/dQw4w9WgXcQ"
-        videoTitle="Official Music Video on YouTube"
-      />
+      <video controls>
+      <source src={DogVideo} type="video/mp4" />
+    </video>
+      
     </section>
         
     </Layout>
