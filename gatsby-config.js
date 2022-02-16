@@ -3,8 +3,9 @@ module.exports = {
         title: "Le Site Gasy Aix en Provence Miray G.A.M",
     },
     plugins: [
-        "gatsby-plugin-image",
+        
         "gatsby-plugin-sharp",
+       
         {
             resolve: "gatsby-source-filesystem",
             options: {
@@ -13,5 +14,8 @@ module.exports = {
             },
           },
           "gatsby-plugin-mdx",
+          "gatsby-transformer-sharp",
+          "gatsby-plugin-image",
+          
     ]
 }
