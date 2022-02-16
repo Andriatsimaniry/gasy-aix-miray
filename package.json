@@ -22,9 +22,12 @@
     "gatsby-plugin-mdx": "^3.7.0",
     "gatsby-plugin-sharp": "^4.7.0",
     "gatsby-remark-autolink-headers": "^5.7.0",
+    "gatsby-remark-embed-video": "^3.1.1",
     "gatsby-remark-images": "^6.7.0",
     "gatsby-remark-prismjs": "^6.7.0",
+    "gatsby-remark-responsive-iframe": "^5.7.0",
     "gatsby-source-filesystem": "^4.7.0",
+    "gatsby-transformer-remark": "^5.7.0",
     "gatsby-transformer-sharp": "^4.7.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"

@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import Video from "../components/video"
 
 // styles
 const pageStyles = {
@@ -45,6 +46,15 @@ const NotFoundPage = () => {
           </>
         ) : null}
         <br />
+        <section>
+      <h1>NOT FOUND</h1>
+      <p>You just hit a page that doesn't exist... the sadness.</p>
+      <p>May I suggest a video instead?</p>
+      <Video
+        videoSrcURL="https://www.youtube.com/embed/dQw4w9WgXcQ"
+        videoTitle="Official Music Video on YouTube"
+      />
+    </section>
         <Link to="/">Go home</Link>.
       </p>
     </main>
@@ -52,3 +62,4 @@ const NotFoundPage = () => {
 }
 
 export default NotFoundPage
+
