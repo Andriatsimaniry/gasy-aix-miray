@@ -4,6 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 import { Link } from "gatsby"
 import { getUser, isLoggedIn } from "../services/auth"
 import DogVideo from "../assets/video.mp4"
+import  'bootstrap/dist/css/bootstrap.min.css' 
 
 const IndexPage = () => {
   return (
@@ -12,7 +13,7 @@ const IndexPage = () => {
       <StaticImage
         alt="La Rotonde"
         src="../images/Rotonde1.png" />
-         <h1>Bonjour Les {isLoggedIn() ? getUser().name : "GAM"}!</h1>
+         <h1>Bonjour {isLoggedIn() ? getUser().name : "GAM"}!</h1>
       <p>
         {isLoggedIn() ? (
           <>

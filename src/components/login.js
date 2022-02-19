@@ -1,6 +1,7 @@
 import React from "react"
 import { navigate } from "gatsby"
 import { handleLogin, isLoggedIn } from "../services/auth"
+import { Button } from 'react-bootstrap'
 
 class Login extends React.Component {
   state = {
@@ -26,7 +27,7 @@ class Login extends React.Component {
 
     return (
       <>
-        <h1>Connecter</h1>
+        <h1>Connection a la page restreinte</h1>
         <form
           method="post"
           onSubmit={event => {
@@ -46,7 +47,8 @@ class Login extends React.Component {
               onChange={this.handleUpdate}
             />
           </label>
-          <input type="submit" value="Connecter" />
+          <Button type="submit" variant="primary" className="mx-3">Connecter</Button>
+          {/* <input type="submit" value="Connecter" /> */}
         </form>
       </>
     )
