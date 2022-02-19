@@ -9,7 +9,7 @@ const BlogPost = ({ data }) => {
  
   return (
     <Layout pageTitle={data.mdx.frontmatter.title}>
-      <p>Posted: {data.mdx.frontmatter.date}</p>
+      <p>Posté le : {data.mdx.frontmatter.date}</p>
       <GatsbyImage
       image={image}
       alt={data.mdx.frontmatter.hero_image_alt}

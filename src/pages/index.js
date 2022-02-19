@@ -1,6 +1,8 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
+import { Link } from "gatsby"
+import { getUser, isLoggedIn } from "../services/auth"
 import DogVideo from "../assets/video.mp4"
 
 const IndexPage = () => {
@@ -10,6 +12,19 @@ const IndexPage = () => {
       <StaticImage
         alt="La Rotonde"
         src="../images/Rotonde1.png" />
+         <h1>Bonjour Les {isLoggedIn() ? getUser().name : "GAM"}!</h1>
+      <p>
+        {isLoggedIn() ? (
+          <>
+            Vous êtes connecté, alors vérifiez votre{" "}
+            <Link to="/app/profile">profil</Link>
+          </>
+        ) : (
+          <>
+            Tu devrais <Link to="/app/login">Connecter</Link>Pour voir le contenu restreint 
+          </>
+        )}
+      </p>
          <section>
       <h1>Bienvenue sur le Site du G.A.M</h1>
       <p>Juste une petite video pour commencer !</p>
