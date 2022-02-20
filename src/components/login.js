@@ -27,7 +27,7 @@ class Login extends React.Component {
 
     return (
       <>
-        <h1>Connection a la page restreinte</h1>
+        <h1>Connection a la page Publication</h1>
         <form
           method="post"
           onSubmit={event => {

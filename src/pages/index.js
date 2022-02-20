@@ -9,7 +9,7 @@ import  'bootstrap/dist/css/bootstrap.min.css'
 const IndexPage = () => {
   return (
     <Layout pageTitle="Page d'Acceuil G.A.M">
-      <p>Bienvenue sur la page d'Acceuil du G.A.M.</p>
+      <h1>Bienvenue sur le Site du G.A.M</h1>
       <StaticImage
         alt="La Rotonde"
         src="../images/Rotonde1.png" />
@@ -27,7 +27,7 @@ const IndexPage = () => {
         )}
       </p>
          <section>
-      <h1>Bienvenue sur le Site du G.A.M</h1>
+      
       <p>Juste une petite video pour commencer !</p>
       
       <video controls>
