@@ -1,6 +1,7 @@
 import * as React from "react";
 import NavBar from "./nav-bar"
 import { useStaticQuery, graphql } from "gatsby";
+
 import {
   container,
   heading,
@@ -9,6 +10,8 @@ import {
   // navLinkText,
   siteTitle,
 } from "./layout.module.css";
+import Footer from "./footer";
+
 
 const Layout = ({ pageTitle, children }) => {
   const data = useStaticQuery(graphql`
@@ -24,33 +27,20 @@ const Layout = ({ pageTitle, children }) => {
      
     <div className={container}>
       <NavBar />
+      
       <title>
         {pageTitle} | {data.site.siteMetadata.title}
       </title>
       <header className={siteTitle}>{data.site.siteMetadata.title}</header>
-      {/* <nav>
-        <ul className={navLinks}>
-          <li className={navLinkItem}>
-            <Link to="/" className={navLinkText}>
-              Acceuil
-            </Link>
-          </li>
-          <li className={navLinkItem}>
-            <Link to="/about" className={navLinkText}>
-              A propos
-            </Link>
-          </li>
-          <li className={navLinkItem}>
-            <Link to="/blog" className={navLinkText}>
-              Blog
-            </Link>
-          </li>
-        </ul>
-      </nav> */}
+     
       <main>
         <h1 className={heading}>{pageTitle}</h1>
         {children}
       </main>
+<Footer />
+      
+    
+      
     </div>
   );
 };

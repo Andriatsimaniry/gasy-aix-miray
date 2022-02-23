@@ -3,6 +3,8 @@ import { navigate } from "gatsby";
 import { isLoggedIn, logout } from "../services/auth";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Logo from "../assets/img/3Dauphin.png";
+
 
 export default function NavBar() {
   //   let greetingMessage = ""
@@ -13,9 +15,18 @@ export default function NavBar() {
   //   }
   return (
     <>
-      <Navbar bg="primary" variant="dark">
+      <Navbar bg="primary" variant="dark" expand="lg">
         <Container>
-          <Navbar.Brand href="/logo">Logo</Navbar.Brand>
+        <Navbar.Brand href="/">
+        <img
+          alt=""
+          src={Logo}
+          width="80"
+          height="40"
+          className="d-inline-block align-top"
+        />{' '}
+        G.A.M
+      </Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="/">Acceuil</Nav.Link>
             <Nav.Link href="/blog">Publication</Nav.Link>
@@ -33,7 +44,7 @@ export default function NavBar() {
                 Déconnecter
               </Nav.Link>
             ) : (
-              <Nav.Link href="/app/login">Connecter</Nav.Link>
+              <Nav.Link href="/app/login">AccesMembre</Nav.Link>
             )}
           </Nav>
         </Container>
