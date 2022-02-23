@@ -30,7 +30,7 @@ import { Link } from "gatsby";
 import React from "react";
 // import { Form } from "react-bootstrap";
 
-import { FaFacebook, FaHeart } from "react-icons/fa";
+import { FaFacebook, FaHeart, FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { footer, social, copyright, menuFooter } from "./footer.module.css";
@@ -48,6 +48,9 @@ const Footer = () => {
         <a href="https://www.Facebook.com/">
           <FaFacebook size="30" color="#fff" />
         </a>
+        <a href="https://www.twitter.com/">
+          <FaTwitter size="30" color="#fff" />
+        </a>
       </div>
       <div className={menuFooter}>
         <ul>
@@ -62,10 +65,11 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-
-      <p className={copyright}>
-        © {new Date().getFullYear()} <FaHeart color="#B51942" /> NiryOmega{" "}
-      </p>
+      <div>
+        <p className={copyright}>
+          © {new Date().getFullYear()} <FaHeart color="#B51942" /> NiryOmega{" "}
+        </p>
+      </div>
     </footer>
   );
 };

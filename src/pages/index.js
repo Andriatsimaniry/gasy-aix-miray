@@ -1,19 +1,17 @@
-import * as React from 'react'
-import Layout from '../components/layout'
-import { StaticImage } from 'gatsby-plugin-image'
-import { Link } from "gatsby"
-import { getUser, isLoggedIn } from "../services/auth"
-import DogVideo from "../assets/video.mp4"
-import  'bootstrap/dist/css/bootstrap.min.css' 
+import * as React from "react";
+import Layout from "../components/layout";
+import { StaticImage } from "gatsby-plugin-image";
+import { Link } from "gatsby";
+import { getUser, isLoggedIn } from "../services/auth";
+import DogVideo from "../assets/video.mp4";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const IndexPage = () => {
   return (
     <Layout pageTitle="Page d'Acceuil G.A.M">
       <h1>Bienvenue sur le Site du G.A.M</h1>
-      <StaticImage
-        alt="La Rotonde"
-        src="../images/Rotonde1.png" />
-         <h1>Bonjour {isLoggedIn() ? getUser().name : "GAM"}!</h1>
+      <StaticImage alt="La Rotonde" src="../images/Rotonde1.png" />
+      <h1>Bonjour {isLoggedIn() ? getUser().name : "GAM"}!</h1>
       <p>
         {isLoggedIn() ? (
           <>
@@ -22,22 +20,20 @@ const IndexPage = () => {
           </>
         ) : (
           <>
-            Tu devrais <Link to="/app/login">Connecter</Link>Pour voir le contenu restreint 
+            Tu devrais <Link to="/app/login">Connecter</Link>Pour voir le
+            contenu restreint
           </>
         )}
       </p>
-         <section>
-      
-      <p>Juste une petite video pour commencer !</p>
-      
-      <video controls>
-      <source src={DogVideo} type="video/mp4" />
-    </video>
-      
-    </section>
-        
-    </Layout>
-  )
-}
+      <section>
+        <p>Juste une petite video pour commencer !</p>
 
-export default IndexPage
+        <video controls>
+          <source src={DogVideo} type="video/mp4" />
+        </video>
+      </section>
+    </Layout>
+  );
+};
+
+export default IndexPage;
