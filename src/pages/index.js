@@ -36,8 +36,8 @@ const IndexPage = () => {
               ) : (
                 <>
                   Tu devrais<Link to="/app/login">Connecter</Link>Pour voir le
-                  contenu restreint. Nous sommes heureux de vous partager les
-                  moments
+                  contenu restreint. Nous sommes heureux de vous partager nos meilleurs
+                  moments ensemble
                 </>
               )}
             </p>{" "}
