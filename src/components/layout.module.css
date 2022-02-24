@@ -1,25 +1,27 @@
 .container {
-    margin: auto;
-    max-width: 100%;
-    font-family: sans-serif;
-  }
+  max-width: 100%;
+  font-family: sans-serif;
 
-  
-  .heading {
-    color: rebeccapurple;
-  }
-  /* .nav-links {
+  min-height: 100%;
+
+  margin: 0 auto;
+}
+
+.heading {
+  color: rebeccapurple;
+}
+/* .nav-links {
     display: flex;
     list-style: none;
     padding-left: 0;
   } */
-  /* .nav-link-item {
+/* .nav-link-item {
     padding-right: 2rem;
   }
   .nav-link-text {
     color: black;
   } */
-  /* ... your existing styles */
+/* ... your existing styles */
 
 .site-title {
   font-size: 3rem;
@@ -31,123 +33,123 @@
 /* Styled footer */
 
 .clearfix {
-    *display: inline-block;
-    height: 1%;
+  *display: inline-block;
+  height: 1%;
 }
 .clearfix:after {
-    content: "";
-    display: block;
-    clear: both;
-    visibility: hidden;
-    font-size: 0;
-    height: 0;
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  font-size: 0;
+  height: 0;
 }
 .clear {
-    clear: both;
-    display: block;
-    overflow: hidden;
-    visibility: hidden;
-    width: 0;
-    height: 0;
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
 }
 .footer {
-    width: 100%;
-    margin: 0 -999px;
-    padding: 30px 999px;
-    display: block;
-    overflow: hidden;
-    background: #2f353e;
-    box-shadow: rgba(0,0,0,.15) 0px 0px 5px;
-    -moz-box-shadow: rgba(0,0,0,.15) 0px 0px 5px;
-    -webkit-box-shadow: rgba(0,0,0,.15) 0px 0px 5px;
+  width: 100%;
+  margin: 0 -999px;
+  padding: 30px 999px;
+  display: block;
+  overflow: hidden;
+  background: #2f353e;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 5px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 5px;
 }
 .footer-copy {
-    float: left;
+  float: left;
 }
 .menu-footer-wrapper {
-    float: left;
+  float: left;
 }
 .menu-footer {
-    float: left;
-    margin: 0;
+  float: left;
+  margin: 0;
 }
 .menu-footer li {
-    float: left;
-    margin: 0 20px 5px 0;
-    display: inline;
+  float: left;
+  margin: 0 20px 5px 0;
+  display: inline;
 }
 .menu-footer-wrapper {
-    float: left;
+  float: left;
 }
 .copyright {
-    float: left;
-    margin: 0;
-    position: relative;
-    font-size: 12px;
-    color: #a7b5c1;
+  float: left;
+  margin: 0;
+  position: relative;
+  font-size: 12px;
+  color: #a7b5c1;
 }
 .social-icons {
-    float: right;
-    margin-top: 5px;
+  float: right;
+  margin-top: 5px;
 }
 
 .clearfix {
-    *display: inline-block;
-    height: 1%;
+  *display: inline-block;
+  height: 1%;
 }
 .clearfix:after {
-    content: "";
-    display: block;
-    clear: both;
-    visibility: hidden;
-    font-size: 0;
-    height: 0;
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  font-size: 0;
+  height: 0;
 }
 .clear {
-    clear: both;
-    display: block;
-    overflow: hidden;
-    visibility: hidden;
-    width: 0;
-    height: 0;
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
 }
 .footer {
-    width: 100%;
-    margin: 0 -999px;
-    padding: 30px 999px;
-    display: block;
-    overflow: hidden;
-    background: #2f353e;
-    box-shadow: rgba(0,0,0,.15) 0px 0px 5px;
-    -moz-box-shadow: rgba(0,0,0,.15) 0px 0px 5px;
-    -webkit-box-shadow: rgba(0,0,0,.15) 0px 0px 5px;
+  width: 100%;
+  margin: 0 -999px;
+  padding: 30px 999px;
+  display: block;
+  overflow: hidden;
+  background: #2f353e;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 5px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 5px;
 }
 .footer-copy {
-    float: left;
+  float: left;
 }
 .menu-footer-wrapper {
-    float: left;
+  float: left;
 }
 .menu-footer {
-    float: left;
-    margin: 0;
+  float: left;
+  margin: 0;
 }
 .menu-footer li {
-    float: left;
-    margin: 0 20px 5px 0;
-    display: inline;
+  float: left;
+  margin: 0 20px 5px 0;
+  display: inline;
 }
 .menu-footer-wrapper {
-    float: left;
+  float: left;
 }
 .copyright {
-    float: left;
-    margin: 0;
-    position: relative;
-    font-size: 12px;
-    color: #a7b5c1;
+  float: left;
+  margin: 0;
+  position: relative;
+  font-size: 12px;
+  color: #a7b5c1;
 }
 .social-icons {
-    float: right;
-    margin-top: 5px;
+  float: right;
+  margin-top: 5px;
 }

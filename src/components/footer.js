@@ -39,7 +39,7 @@ const Footer = () => {
       </div>
       <div>
         <p className={copyright}>
-          © {new Date().getFullYear()} <FaHeart color="#B51942" /> NiryOmega{" "}
+          © {new Date().getFullYear()}{" "} <FaHeart color="#B51942" />{"  "} NiryOmega{" "}
         </p>
       </div>
     </footer>
