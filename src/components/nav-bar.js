@@ -3,19 +3,14 @@ import { navigate } from "gatsby";
 import { isLoggedIn, logout } from "../services/auth";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Logo from "../assets/img/3Dauphin.png";
+import Logo from "../assets/img/GAM1.svg";
 
 
 export default function NavBar() {
-  //   let greetingMessage = ""
-  //   if (isLoggedIn()) {
-  //     greetingMessage = `Bonjour ${getUser().name}`
-  //   } else {
-  //     greetingMessage = "Vous n'êtes pas connecté"
-  //   }
+  
   return (
     <>
-      <Navbar bg="dark" variant="dark" expand="lg">
+      <Navbar bg="light" variant="dark"  expand="lg" >
         <Container>
         <Navbar.Brand href="/">
         <img
@@ -23,15 +18,15 @@ export default function NavBar() {
           src={Logo}
           width="80"
           height="40"
-          className="d-inline-block align-top"
-        />{' '}
-        G.A.M
+          className="d-inline-block align-top "
+        /><h1 className="d-inline-block align-top text-dark">G.A.M</h1>
+        
       </Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="/">Acceuil</Nav.Link>
-            <Nav.Link href="/blog">Publication</Nav.Link>
-            <Nav.Link href="/app/galerie">Galerie</Nav.Link>
-            <Nav.Link href="/app/profile">Profile</Nav.Link>
+            <Nav.Link href="/" className="text-dark">Acceuil</Nav.Link>
+            <Nav.Link href="/blog" className="text-dark">Publication</Nav.Link>
+            <Nav.Link href="/app/galerie" className="text-dark">Galerie</Nav.Link>
+            <Nav.Link href="/app/profile" className="text-dark" >Profile</Nav.Link>
 
             {isLoggedIn() ? (
               <Nav.Link
