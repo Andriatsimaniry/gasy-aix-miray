@@ -12,16 +12,16 @@ const Footer = () => {
     <footer className={footer}>
       <div className={social}>
         <a href="https://www.instagram.com/">
-          <FaInstagram size="30" color="#fff" />
+          <FaInstagram size="30" color="#8a3ab9" />
         </a>
         <a href="https://www.youtube.com/">
-          <FaYoutube size="30" color="#fff" />
+          <FaYoutube size="30" color="#FF0000" />
         </a>
         <a href="https://www.Facebook.com/">
-          <FaFacebook size="30" color="#fff" />
+          <FaFacebook size="30" color="#36609F" />
         </a>
         <a href="https://www.twitter.com/">
-          <FaTwitter size="30" color="#fff" />
+          <FaTwitter size="30" color="#2AA9E0" />
         </a>
       </div>
       <div className={menuFooter}>

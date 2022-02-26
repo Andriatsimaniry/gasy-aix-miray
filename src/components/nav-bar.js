@@ -35,11 +35,12 @@ export default function NavBar() {
                   event.preventDefault();
                   logout(() => navigate(`/app/login`));
                 }}
+                className="text-dark"
               >
                 Déconnecter
               </Nav.Link>
             ) : (
-              <Nav.Link href="/app/login">AccesMembre</Nav.Link>
+              <Nav.Link href="/app/login" className="text-dark">Espace Membre</Nav.Link>
             )}
           </Nav>
         </Container>

@@ -46,7 +46,7 @@ const IndexPage = () => {
             <StaticImage alt="La Rotonde" src="../assets/img/3Dauphin.png" />
           </Col>
           <Col xs lg="2">
-            <h5>Bonjour{isLoggedIn() ? getUser().name : "GAM"}!</h5>
+            <h5>Bonjour{" "}{isLoggedIn() ? getUser().name : "GAM"}!</h5>
           </Col>
         </Row>
       </Layout>
