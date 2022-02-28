@@ -7,6 +7,7 @@ import Galerie from "./galerie"
 import Login from "../components/login"
 
 
+
 const App = () => (
   <Layout>
     <Router>
@@ -14,7 +15,9 @@ const App = () => (
     <PrivateRoute path="/app/galerie" component={Galerie} />
       <Login path="/app/login" />
     </Router>
+    
   </Layout>
+  
 )
 
 export default App

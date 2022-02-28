@@ -24,6 +24,7 @@ const BlogPost = ({ data }) => {
         {data.mdx.body}
       </MDXRenderer>
     </Layout>
+    
   )
 }
 

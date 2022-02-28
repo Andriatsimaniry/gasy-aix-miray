@@ -1,15 +1,15 @@
 import React from "react";
 import { navigate } from "gatsby";
 import { isLoggedIn, logout } from "../services/auth";
-import { Navbar, Container, Nav } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Logo from "../assets/img/GAM1.svg";
 
 export default function NavBar() {
   return (
     <>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
+      <Nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <div className="container-fluid">
           <Navbar.Brand href="/">
             <img
               alt=""
@@ -29,57 +29,50 @@ export default function NavBar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-2 mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav me-2 mb-2 mb-lg-0">
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="/">
                   Acceuil
                 </a>
               </li>
-
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Menu Déroulant
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="/blog/publication">
+                  Publication
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a class="dropdown-item" href="/blog">
-                      Publication
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="/app/galerie">
-                      Galerie
-                    </a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="/app/profile">
-                      Profil
-                    </a>
-                  </li>
-                </ul>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="/blog/calendrier">
+                  Calendrier
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="/app/profile">
+                  Profil
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="/blog/liste-des-membres">
+                  Membre
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="/about">
+                  Projet
+                </a>
               </li>
             </ul>
-            <form class="d-flex">
+
+            <form className="d-flex">
               <input
-                class="form-control me-2"
+                className="form-control me-2"
                 type="search"
                 placeholder="Rechercher"
                 aria-label="Search"
               ></input>
-              <button class="btn btn-outline-success" type="submit">
+              <button className="btn btn-outline-success" type="submit">
                 Rechercher
               </button>
             </form>
@@ -101,7 +94,7 @@ export default function NavBar() {
             Espace Membre
           </Nav.Link>
         )}
-      </nav>
+      </Nav>
     </>
   );
 }

@@ -1,17 +1,9 @@
 import * as React from "react";
-import NavBar from "./nav-bar"
+import NavBar from "./nav-bar";
 import { useStaticQuery, graphql } from "gatsby";
 
-import {
-  container,
-  heading,
-  // navLinks,
-  // navLinkItem,
-  // navLinkText,
-  siteTitle,
-} from "./layout.module.css";
-import Footer from "./footer";
-
+import { Container, heading, siteTitle } from "./layout.module.css";
+import { FooterContainer } from "../containers/footer";
 
 const Layout = ({ pageTitle, children }) => {
   const data = useStaticQuery(graphql`
@@ -24,23 +16,17 @@ const Layout = ({ pageTitle, children }) => {
     }
   `);
   return (
-     
-    <div className={container}>
+    <div className={Container}>
       <NavBar />
-      
       <title>
         {pageTitle} | {data.site.siteMetadata.title}
       </title>
       <header className={siteTitle}>{data.site.siteMetadata.title}</header>
-     
       <main>
         <h1 className={heading}>{pageTitle}</h1>
         {children}
       </main>
-<Footer />
-      
-    
-      
+      <FooterContainer />
     </div>
   );
 };

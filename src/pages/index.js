@@ -7,6 +7,7 @@ import DogVideo from "../assets/video.mp4";
 import { Row, Col, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+
 const IndexPage = () => {
   return (
     <Container fluid>
@@ -35,7 +36,7 @@ const IndexPage = () => {
                 </>
               ) : (
                 <>
-                  Tu devrais<Link to="/app/login">Connecter{"  "}</Link>Pour voir le
+                  Tu devrais{" "}<Link to="/app/login">Connecter{"  "}</Link>Pour voir le
                   contenu restreint. Nous sommes heureux de vous partager nos meilleurs
                   moments ensemble
                 </>
@@ -49,8 +50,10 @@ const IndexPage = () => {
             <h5>Bonjour{" "}{isLoggedIn() ? getUser().name : "GAM"}!</h5>
           </Col>
         </Row>
-      </Layout>
+      </Layout>,
+     
     </Container>
+    
   );
 };
 
