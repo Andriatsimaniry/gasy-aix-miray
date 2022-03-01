@@ -12,15 +12,18 @@ export function FooterContainer() {
         <Footer.Row>
           <Footer.Column>
             <Footer.Title>A Propos </Footer.Title>
-            <Footer.Link href="#">Histoire</Footer.Link>
+            <Footer.Link href="/about">Histoire</Footer.Link>
             <Footer.Link href="#">Membre</Footer.Link>
             <Footer.Link href="#">Projet</Footer.Link>
+            <Footer.Link href="https://www.diplomatie.gov.mg/index.php/liens-utiles">Liens Utiles</Footer.Link>
+
           </Footer.Column>
           <Footer.Column>
-            <Footer.Title>Services</Footer.Title>
-            <Footer.Link href="/">Acceuil</Footer.Link>
-            <Footer.Link href="/blog/publication">Publication</Footer.Link>
-            <Footer.Link href="#">Galerie</Footer.Link>
+            <Footer.Title>Presses</Footer.Title>
+            <Footer.Link href="https://www.midi-madagasikara.mg/">Midi madagascar</Footer.Link>
+            <Footer.Link href="https://www.madagascar-tribune.com/">madagascar Tribune</Footer.Link>
+            <Footer.Link href="https://www.orange.mg/">Orange madagascar</Footer.Link>
+            <Footer.Link href="https://www.airmadagascar.com/">Air madagascar</Footer.Link>
           </Footer.Column>
           <Footer.Column>
             <Footer.Title>Nous contacter</Footer.Title>
@@ -47,7 +50,7 @@ export function FooterContainer() {
         </Footer.Row>
       </Footer.Wrapper>
       <p className={Copyright}>
-        © {new Date().getFullYear()} <FaHeart color="#FFF" /> NiryOmega
+        © Copyright {new Date().getFullYear()} <FaHeart color="#FFF" /> NiryOmega
       </p>
     </Footer>
   );
