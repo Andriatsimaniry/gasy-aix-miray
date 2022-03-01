@@ -3,12 +3,10 @@ import Layout from "../components/layout";
 import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
 import { getUser, isLoggedIn } from "../services/auth";
-import { Row, Col, Container, Carousel } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import slide01 from "../images/1.png";
-import slide02 from "../images/9.png";
-import slide03 from "../images/27.png";
+
 
 
 
@@ -21,19 +19,7 @@ const IndexPage = () => {
             <h1>Bienvenue</h1>
           </Col>
           <Col md="auto">
-          <Carousel>
-            <Carousel.Item>
-              <img src={slide01} alt="image Gam" />
-            </Carousel.Item>
-            <Carousel.Item>
-            <img src={slide02} alt="la rotonde" />
-
-            </Carousel.Item>
-            <Carousel.Item>
-            <img src={slide03} alt="Sainte victoire" />
-
-            </Carousel.Item>
-          </Carousel>
+          
           </Col>
           <Col xs lg="2">
             La Rotonde
