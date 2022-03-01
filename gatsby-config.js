@@ -2,6 +2,8 @@ module.exports = {
   siteMetadata: {
     title: "Le Site Gasy Aix en Provence Miray G.A.M",
   },
+
+
   plugins: [
     {
       resolve: `gatsby-plugin-sharp`,
@@ -62,6 +64,7 @@ module.exports = {
     "gatsby-remark-embed-video",
     "gatsby-remark-responsive-iframe",
     "gatsby-remark-prismjs",
-    "gatsby-remark-images"
+    "gatsby-remark-images",
+    `gatsby-plugin-gatsby-cloud`
   ],
 };
