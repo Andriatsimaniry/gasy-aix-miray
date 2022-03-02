@@ -9,7 +9,7 @@ const AboutPage = () => {
       <p>G.A.M a été crée en janvier 2022</p>
       <StaticImage
         alt="La Rotonde"
-        src="../images/Baobab.png" />
+        src="../images/gasy-miray-baobab.png" />
     </Layout>
   )
 }

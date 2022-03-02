@@ -3,11 +3,11 @@ import NavBar from "./nav-bar";
 import { useStaticQuery, graphql } from "gatsby";
 import { Container, heading, siteTitle } from "./layout.module.css";
 import { FooterContainer } from "../containers/footer";
-import { Carousel } from "react-bootstrap";
 
-import slide01 from "./../images/1.png";
-import slide02 from "./../images/9.png";
-import slide03 from "./../images/27.png";
+// import Img from "../pages/index"
+
+
+
 
 const Layout = ({ pageTitle, children }) => {
   const data = useStaticQuery(graphql`
@@ -26,19 +26,7 @@ const Layout = ({ pageTitle, children }) => {
         {pageTitle} | {data.site.siteMetadata.title}
       </title>
       <header className={siteTitle}>{data.site.siteMetadata.title}
-      <Carousel>
-            <Carousel.Item>
-              <img src={slide01} alt="Gam" />
-            </Carousel.Item>
-            <Carousel.Item>
-            <img src={slide02} alt="la rotonde" />
-
-            </Carousel.Item>
-            <Carousel.Item>
-            <img src={slide03} alt="Sainte victoire" />
-
-            </Carousel.Item>
-          </Carousel>
+    {/* <Img /> */}
       </header>
       <main>
         <h1 className={heading}>{pageTitle}</h1>
