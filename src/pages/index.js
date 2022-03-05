@@ -13,9 +13,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function IndexPage() {
   return (
     <Container fluid>
-      <col>
-      </col>
-      <Layout pageTitle="Page d'Acceuil G.A.M">
+      <Layout pageTitle="Bienvenue sur le site du G.A.M">
         <Row className="justify-content-md-center">
           {/* Carousel */}
 
@@ -35,14 +33,19 @@ function IndexPage() {
             </Carousel.Item> */}
           {/* </Carousel> */}
 
-          <Col xs lg="2">
-            <h1>Bienvenue</h1>
-          </Col>
-          <Col md="auto"></Col>
          
         </Row>
+      <Row ms="2">
+      <StaticImage
+              alt="La Rotonde"
+              src="../images/gasy-miray-aix.png"
+              placeholder="blurred"
+              layout="FULL_WIDTH"          
+            />
+      </Row>
+      
         <Row>
-          <Col>
+          <Row>
             {" "}
             <p>
               {isLoggedIn() ? (
@@ -58,17 +61,8 @@ function IndexPage() {
                 </>
               )}
             </p>{" "}
-          </Col>
-          <Col >
-            <StaticImage
-              alt="La Rotonde"
-              src="../images/gasy-miray-baobab.png"
-              placeholder="blurred"
-              layout="fixed"
-              width={800}
-              height={600}
-            />
-          </Col>
+          </Row>
+          
           <Col xs lg="2">
             <h5>Bonjour {isLoggedIn() ? getUser().name : "GAM"}!</h5>
           </Col>
