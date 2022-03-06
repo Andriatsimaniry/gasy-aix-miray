@@ -34,7 +34,7 @@ export default function NavBar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-2 mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <a className="nav-link active"  color="#ffe000" aria-current="page" href="/">
                   Acceuil
                 </a>
               </li>
@@ -61,6 +61,11 @@ export default function NavBar() {
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="/blog/liste-des-membres">
                   Projet
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="/app/galerie">
+                  Galeries
                 </a>
               </li>
             </ul>

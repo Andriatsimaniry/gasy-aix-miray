@@ -7,7 +7,7 @@ const Frame = ({ children }) => {
     
     <div>
     
-      <h1>C'est le titre de la page</h1>
+      <h1>Liste des membres</h1>
       { children }
     </div>
     
