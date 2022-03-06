@@ -5,36 +5,38 @@ import { StaticImage } from "gatsby-plugin-image";
 const AboutPage = () => {
   return (
     <Layout pageTitle="Les membres du  G.A.M">
-      <p>Président : RAKOTOZAFY Eric</p>
       <StaticImage
         alt="La Rotonde"
         src="../images/gasy-miray-eric.png"
         placeholder="blurred"
         layout="fullWidth"
       />
-      <p>Vice Président : RANAIVOSOA Jaona</p>
+      <p>Président : RAKOTOZAFY Eric</p>
+
       <StaticImage
         alt="La Rotonde"
         src="../images/gasy-miray-jhon.png"
         placeholder="blurred"
         layout="fullWidth"
       />
+      <p>Vice Président : RANAIVOSOA Jaona</p>
 
-      <p>Conseiller Spécial : RALAIMIHAOTRA Patrice</p>
       <StaticImage
         alt="La Rotonde"
         src="../images/gasy-miray-patou.png"
         placeholder="blurred"
         layout="fullWidth"
       />
-      <p>Conseiller Spécial: RAKOTOZANANY Alain </p>
+      <p>Conseiller Spécial : RALAIMIHAOTRA Patrice</p>
+
       <StaticImage
         alt="La Rotonde"
         src="../images/gasy-miray-dolphe.png"
         placeholder="blurred"
         layout="fullWidth"
       />
-      <div class="container">
+      <p>Conseiller Spécial: RAKOTOZANANY Alain </p>
+      {/* <div class="container">
         <div class="d-flex justify-content-start bg-warning m-2">
           <div class="p-2 border border-dark bg-info">Elément flex 1</div>
           <div class="p-2 border border-dark bg-info">Elément flex 2</div>
@@ -46,7 +48,7 @@ const AboutPage = () => {
                <div class="p-2 border border-dark bg-info">Elément flex 3</div>
              </div>
              {/* justify-content-center pour les petits écrans puis justify-content-between dès qu'on passe le breakpoint lg */}
-             <div class="d-flex justify-content-center justify-content-lg-between bg-warning m-2">
+      {/* <div class="d-flex justify-content-center justify-content-lg-between bg-warning m-2">
                <div class="p-2 border border-dark bg-info">Elément flex 1</div>
                <div class="p-2 border border-dark bg-info">Elément flex 2</div>
                <div class="p-2 border border-dark bg-info">Elément flex 3</div>
@@ -61,8 +63,8 @@ const AboutPage = () => {
                 <div class="p-2 flex-fill bg-info border">Elément flex 2</div>
                 <div class="p-2 flex-fill bg-info border">Elément flex 3</div>
              </div>
-              
-      </div>
+        
+      </div>  */}
     </Layout>
   );
 };
