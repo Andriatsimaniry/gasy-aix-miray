@@ -35,16 +35,14 @@ function IndexPage() {
 
          
         </Row>
-      <Row ms="2">
+      <Row>
       <StaticImage
               alt="La Rotonde"
               src="../images/gasy-miray-aix.png"
               placeholder="blurred"
-              layout="FULL_WIDTH"          
+              layout="fullWidth"          
             />
-      </Row>
-      
-        <Row>
+      </Row>        
           <Row>
             {" "}
             <p>
@@ -62,7 +60,15 @@ function IndexPage() {
               )}
             </p>{" "}
           </Row>
-          
+          <Row>
+          <StaticImage
+              alt="La Rotonde"
+              src="../images/gasy-miray-gam.png"
+              placeholder="blurred"
+              layout="fullWidth"          
+            />
+      </Row>        
+         <Row> 
           <Col xs lg="2">
             <h5>Bonjour {isLoggedIn() ? getUser().name : "GAM"}!</h5>
           </Col>

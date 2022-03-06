@@ -1,5 +1,5 @@
 .Container {
-  width: 100%;
+  width: auto;
   height: 250px;
   font-family: sans-serif;
   margin: 0;
@@ -18,7 +18,7 @@
 
 /* Styled footer */
 
-.clearfix {
+/* .clearfix {
   *display: inline-block;
   height: 1%;
 }
@@ -37,4 +37,4 @@
   visibility: hidden;
   width: 0;
   height: 0;
-}
+} */

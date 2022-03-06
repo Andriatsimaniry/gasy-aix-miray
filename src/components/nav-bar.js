@@ -21,7 +21,7 @@ export default function NavBar() {
             <h1 className="d-inline-block align-top text-dark">G.A.M</h1>
           </Navbar.Brand>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"

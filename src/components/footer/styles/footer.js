@@ -1,7 +1,10 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  padding: 80px 60px;
+  padding: 10px 10px;
+  border-spacing: 5px;
+  height:auto;
+  width:100%;
   background: radial-gradient(circle, rgba(92,39,251,1) 0%, rgba(112,71,247,1) 100%);
 
   @media (max-width: 1000px) {
@@ -22,7 +25,7 @@ export const Column = styled.div`
   display: flex;
   flex-direction: column;
   text-align: left;
-  margin-left: 60px;
+  margin-left: 20px;
 `;
 
 export const Row = styled.div`
@@ -37,8 +40,8 @@ export const Row = styled.div`
 
 export const Link = styled.a`
   color: #fff;
-  margin-bottom: 20px;
-  font-size: 18px;
+  margin-bottom: 10px;
+  font-size: 16px;
   text-decoration: none;
 
   &:hover {
@@ -48,7 +51,7 @@ export const Link = styled.a`
 `;
 
 export const Title = styled.p`
-  font-size: 24px;
+  font-size: 22px;
   color: #fff;
   margin-bottom: 40px;
   font-weight: bold;

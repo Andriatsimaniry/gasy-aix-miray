@@ -5,28 +5,31 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import Layout from "../../components/layout";
 
 const BlogPost = ({ data }) => {
-  const image = getImage(data.mdx.frontmatter.hero_image)
- 
-  return (
-    <Layout pageTitle={data.mdx.frontmatter.title}>
-      <p>Posté le : {data.mdx.frontmatter.date}</p>
-      <GatsbyImage
-      image={image}
-      alt={data.mdx.frontmatter.hero_image_alt}
-    />
-    <p>
-        Photo Credit:{" "}
-        <a href={data.mdx.frontmatter.hero_image_credit_link}>
-          {data.mdx.frontmatter.hero_image_credit_text}
-        </a>
-      </p>
-      <MDXRenderer>
-        {data.mdx.body}
-      </MDXRenderer>
-    </Layout>
-    
-  )
+const image = getImage(data.mdx.frontmatter.hero_image)
+return (
+  <Layout pageTitle={data.mdx.frontmatter.title}>
+    <p>Posté le : {data.mdx.frontmatter.date}</p>
+    <GatsbyImage
+    image={image}
+    alt={data.mdx.frontmatter.hero_image_alt}
+   
+  />
+  <p>
+      Photo Credit:{" "}
+      <a href={data.mdx.frontmatter.hero_image_credit_link}>
+        {data.mdx.frontmatter.hero_image_credit_text}
+      </a>
+    </p>
+    <MDXRenderer>
+      {data.mdx.body}
+    </MDXRenderer>
+  </Layout>
+  
+)
 }
+  
+ 
+
 
 export const query = graphql`
   query($id: String) {
@@ -40,7 +43,7 @@ export const query = graphql`
         hero_image_credit_text
         hero_image {
           childImageSharp {
-            gatsbyImageData
+            gatsbyImageData(layout: FULL_WIDTH)
           }
         }
       }

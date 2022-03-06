@@ -7,14 +7,14 @@ import { Copyright } from "./footer.module.css";
 
 export function FooterContainer() {
   return (
-    <Footer>
+    <Footer fullWidth>
       <Footer.Wrapper>
         <Footer.Row>
           <Footer.Column>
             <Footer.Title>A Propos </Footer.Title>
-            <Footer.Link href="/about">Histoire</Footer.Link>
-            <Footer.Link href="#">Membre</Footer.Link>
-            <Footer.Link href="#">Projet</Footer.Link>
+            <Footer.Link href="/blog/calendrier/">Histoire</Footer.Link>
+            <Footer.Link href="/blog/liste-des-membres/">Membre</Footer.Link>
+            <Footer.Link href="/about">Projet</Footer.Link>
             <Footer.Link href="https://www.diplomatie.gov.mg/index.php/liens-utiles">Liens Utiles</Footer.Link>
 
           </Footer.Column>
@@ -43,7 +43,7 @@ export function FooterContainer() {
             <Footer.Link href="https://www.youtube.com/">
               <FaYoutube size="30" color="#FFF" /> Youtube
             </Footer.Link>
-            <Footer.Link href="https://www.twitter.com/">
+            <Footer.Link href="https://twitter.com/Randria73775597">
               <FaTwitter size="30" color="#FFF" /> Twitter
             </Footer.Link>
           </Footer.Column>
