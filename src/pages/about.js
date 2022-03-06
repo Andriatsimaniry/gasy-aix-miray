@@ -4,17 +4,36 @@ import { StaticImage } from "gatsby-plugin-image";
 
 const AboutPage = () => {
   return (
-    <Layout pageTitle="Les Projets du  G.A.M">
-      <p>G.A.M a été crée en janvier 2022</p>
+    <Layout pageTitle="Les membres du  G.A.M">
+      <p>Président : RAKOTOZAFY Eric</p>
       <StaticImage
         alt="La Rotonde"
-        src="../images/gasy-miray-baobab.png"
+        src="../images/gasy-miray-eric.png"
         placeholder="blurred"
         layout="fullWidth"
       />
-        <p>
-      Les allées des baobab !
-      </p>
+         <p>Vice Président : RANAIVOSOA Jaona</p>
+      <StaticImage
+        alt="La Rotonde"
+        src="../images/gasy-miray-jhon.png"
+        placeholder="blurred"
+        layout="fullWidth"
+      />
+    
+      <p>Conseiller Spécial : RALAIMIHAOTRA Patrice</p>
+      <StaticImage
+        alt="La Rotonde"
+        src="../images/gasy-miray-patou.png"
+        placeholder="blurred"
+        layout="fullWidth"
+      />
+         <p>Conseiller Spécial: RAKOTOZANANY Alain </p>
+      <StaticImage
+        alt="La Rotonde"
+        src="../images/gasy-miray-dolphe.png"
+        placeholder="blurred"
+        layout="fullWidth"
+      />
     </Layout>
   
   );

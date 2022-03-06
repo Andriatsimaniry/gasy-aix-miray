@@ -54,12 +54,12 @@ export default function NavBar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/blog/liste-des-membres">
+                <a className="nav-link active" aria-current="page" href="/about">
                   Membre
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/about">
+                <a className="nav-link active" aria-current="page" href="/blog/liste-des-membres">
                   Projet
                 </a>
               </li>

@@ -50,7 +50,7 @@ export function FooterContainer() {
         </Footer.Row>
       </Footer.Wrapper>
       <p className={Copyright}>
-     Copyright © {new Date().getFullYear()} <FaHeart color="#FFF" /> NiryOmega
+     Copyright ©{" "} {new Date().getFullYear()}{" "} <FaHeart color="#FFF" />{" "} NiryOmega
       </p>
     </Footer>
   );
