@@ -12,12 +12,41 @@ function IndexPage() {
       <Layout pageTitle="Bienvenue sur le site du G.A.M (Gasy Aix En Provence Miray)">
         <Row className="justify-content-md-center">         
         </Row>
+
+        <Row>
+        <div class="d-flex my-2 bg-warning">
+                <div class="p-2 flex-fill bg-info border"><div class="p-2 border border-dark bg-info">   <StaticImage
+              alt="La Rotonde"
+              src="../images/Logoa.PNG"
+              placeholder="blurred"
+              layout="FULL-WIDTH" 
+                       
+            /></div></div>
+                <div class="p-2 flex-fill bg-info border"><div class="p-2 border border-dark bg-info">   <StaticImage
+              alt="La Rotonde"
+              src="../images/Logoz.PNG"
+              placeholder="blurred"
+              layout="FULL-WIDTH" 
+                       
+            /></div></div>
+                <div class="p-2 flex-fill bg-info border"><div class="p-2 border border-dark bg-info">   <StaticImage
+              alt="La Rotonde"
+              src="../images/Logoa.PNG"
+              placeholder="blurred"
+              layout="FULL-WIDTH" 
+                       
+            /></div></div>
+             </div>
+      </Row> 
+
       <Row>
       <StaticImage
               alt="La Rotonde"
-              src="../images/gasy-miray-aix.png"
+              src="../images/gasy-miray-rotonde.png"
               placeholder="blurred"
-              layout="fullWidth"          
+              layout="CONSTRAINED" 
+              width="1900" 
+              height="800"         
             />
       </Row>        
           <Row>
@@ -31,8 +60,7 @@ function IndexPage() {
               ) : (
                 <>
                   Tu devrais <Link to="/app/login">Connecter{"  "}</Link>Pour
-                  voir le contenu restreint. Nous sommes heureux de te
-                  partager nos meilleurs moments ensemble
+                  voir le contenu restreint. 
                 </>
               )}
             </p>{" "}
@@ -42,9 +70,12 @@ function IndexPage() {
               alt="La Rotonde"
               src="../images/gasy-miray-gam.png"
               placeholder="blurred"
-              layout="fullWidth"          
+              layout="CONSTRAINED" 
+              width="1900" 
+              height="800"         
             />
-      </Row>        
+      </Row>  
+         
          <Row> 
           <Col xs lg="2">
             <h5>Bonjour {isLoggedIn() ? getUser().name : "GAM"}!</h5>

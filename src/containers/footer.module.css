@@ -8,4 +8,28 @@
   .Copyright p{
     margin-right: 20px;
   }
+  .vertical {
+   
+      border-right: 2px solid white;
+      position: relative;
+      bottom:150px;
+      right:50px;
+      height: 150px;
+ 
+     /* ({ max-width: 500px}) {  
+    height: 0px;
+    width: 200px; 
+    border-bottom: 1px solid white; 
+     }   */
+    
+  }
+  .Footer.Column::after{
+  content: '';
+  width: 4px;
+  height: 100%;
+  position: absolute;
+  border: 1px solid white;
+  top: 0;
+  left: 100px;
+  }
   

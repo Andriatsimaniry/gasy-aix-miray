@@ -3,7 +3,7 @@ import { navigate } from "gatsby";
 import { isLoggedIn, logout } from "../services/auth";
 import { Navbar, Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Logo from "../assets/img/GAM1.svg";
+import Logo from "../assets/img/Logo.jpg";
 
 export default function NavBar() {
   return (
@@ -13,9 +13,9 @@ export default function NavBar() {
           <Navbar.Brand href="/">
             <img
               alt=""
-              src={Logo}
+              src={ Logo }
               width="80"
-              height="40"
+              height="80"
               className="d-inline-block align-top "
             />
             <h1 className="d-inline-block align-top text-dark">G.A.M</h1>

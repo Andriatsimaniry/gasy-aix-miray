@@ -43,7 +43,7 @@ export const query = graphql`
         hero_image_credit_text
         hero_image {
           childImageSharp {
-            gatsbyImageData(layout: FULL_WIDTH)
+            gatsbyImageData(layout: CONSTRAINED, width: 1900, height: 500)
           }
         }
       }

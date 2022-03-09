@@ -26,6 +26,7 @@ export const Column = styled.div`
   flex-direction: column;
   text-align: left;
   margin-left: 20px;
+  
 `;
 
 export const Row = styled.div`
@@ -56,4 +57,17 @@ export const Title = styled.p`
   margin-bottom: 40px;
   font-weight: bold;
 `;
+// export const Copyright = styled.p`
+// border-right: 2px solid white;
+// height: 270px;
+
+
+
+
+//   @media (max-width: 504px) {
+//     height: 0px;
+//     width: auto; 
+//     border-bottom: 1px solid white; 
+//   }
+// `;
 
