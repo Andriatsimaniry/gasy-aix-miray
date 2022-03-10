@@ -3,7 +3,7 @@ import { navigate } from "gatsby";
 import { isLoggedIn, logout } from "../services/auth";
 import { Navbar, Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Logo from "../assets/img/Logo.jpg";
+import Logo from "../assets/img/Logoa.png";
 
 export default function NavBar() {
   return (
@@ -18,7 +18,7 @@ export default function NavBar() {
               height="80"
               className="d-inline-block align-top "
             />
-            <h1 className="d-inline-block align-top text-dark">G.A.M</h1>
+            <h1 className="d-inline-block align-top text-primary">G.A.M</h1>
           </Navbar.Brand>
           <button
             className="navbar-toggler"
@@ -34,7 +34,7 @@ export default function NavBar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-2 mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active"  color="#ffe000" aria-current="page" href="/">
+                <a className="nav-link active"  color="#00ffff" aria-current="page" href="/">
                   Acceuil
                 </a>
               </li>
@@ -48,14 +48,10 @@ export default function NavBar() {
                   Calendrier
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/app/profile">
-                  Profil
-                </a>
-              </li>
+              
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="/about">
-                  Membre
+                  Adhérent
                 </a>
               </li>
               <li className="nav-item">
@@ -68,6 +64,11 @@ export default function NavBar() {
                   Galeries
                 </a>
               </li>
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="/app/profile">
+                  Profil
+                </a>
+              </li>
             </ul>
 
             <form className="d-flex">
@@ -75,7 +76,9 @@ export default function NavBar() {
                 className="form-control me-2"
                 type="search"
                 placeholder="Rechercher"
+                id="site-search"
                 aria-label="Search"
+                name="q"
               ></input>
               <button className="btn btn-outline-success" type="submit">
                 Rechercher
@@ -90,13 +93,13 @@ export default function NavBar() {
               event.preventDefault();
               logout(() => navigate(`/app/login`));
             }}
-            className="text-dark"
+            className="text-danger"
           >
             Déconnecter
           </Nav.Link>
         ) : (
-          <Nav.Link href="/app/login" className="text-dark">
-            Espace Membre
+          <Nav.Link href="/app/login" className="text-success">
+            Espace Adhérent
           </Nav.Link>
         )}
       </Nav>

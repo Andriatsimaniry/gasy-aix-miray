@@ -30,7 +30,15 @@ const AboutPage = () => {
         layout="FULL_WIDTH"
        
       />
-      <p>Vice-Président 2 : RALAIMIHAOTRA Patrice</p>
+      <p>Premier Conseiller : RALAIMIHAOTRA Patrice</p>
+      <StaticImage
+        alt="La Rotonde"
+        src="../images/gasy-miray-dolphe.jpg"
+        placeholder="blurred"
+        layout="FULL_WIDTH"
+        
+      />
+      <p>Deuxième Conseiller: RAKOTOZANANY Alain Dolphe </p>
 
       <StaticImage
         alt="La Rotonde"
@@ -39,15 +47,8 @@ const AboutPage = () => {
         layout="FULL_WIDTH"
         
       />
-      <p>Vice-Président 3: RANDRIAMBOLOLONTSOA NiryOmega </p>
-      <StaticImage
-        alt="La Rotonde"
-        src="../images/gasy-miray-dolphe.jpg"
-        placeholder="blurred"
-        layout="FULL_WIDTH"
-        
-      />
-      <p>Vice-Président 4: RAKOTOZANANY Alain Dolphe </p>
+      <p>Troisième Conseiller: RANDRIAMBOLOLONTSOA NiryOmega </p>
+     
       <StaticImage
         alt="La Rotonde"
         src="../images/gasy-miray-nirina.jpg"

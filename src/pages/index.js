@@ -78,7 +78,7 @@ function IndexPage() {
          
          <Row> 
           <Col xs lg="2">
-            <h5>Bonjour {isLoggedIn() ? getUser().name : "GAM"}!</h5>
+            <h5 className="d-inline-block align-top text-primary">Bonjour {isLoggedIn() ? getUser().name : "GAM"}!</h5>
           </Col>
         </Row>
       </Layout>
