@@ -27,7 +27,10 @@ const Layout = ({ pageTitle, children }) => {
         <h1 className={heading}>{pageTitle}</h1>
         {children}
       </main>
+      <footer>
       <FooterContainer />
+      </footer>
+      
     </div>
   );
 };

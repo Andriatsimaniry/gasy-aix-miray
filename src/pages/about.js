@@ -55,7 +55,7 @@ const AboutPage = () => {
         layout="FULL_WIDTH"
         
       />
-      <p>Secretaire: RAMANGASON Nirina </p>
+      <p>Secrétaire: RAMANGASON Nirina </p>
       {/* <div class="container">
         <div class="d-flex justify-content-start bg-warning m-2">
           <div className="p-2 border border-dark bg-info">Element flex1</div>

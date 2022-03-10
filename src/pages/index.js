@@ -14,22 +14,22 @@ function IndexPage() {
         </Row>
 
         <Row>
-        <div class="d-flex my-2 bg-warning">
-                <div class="p-2 flex-fill bg-info border"><div class="p-2 border border-dark bg-info">   <StaticImage
+        <div className="d-flex my-2 bg-warning">
+                <div className="p-2 flex-fill bg-info border"><div className="p-2 border border-dark bg-info">   <StaticImage
               alt="La Rotonde"
               src="../images/Logoa.PNG"
               placeholder="blurred"
               layout="FULL-WIDTH" 
                        
             /></div></div>
-                <div class="p-2 flex-fill bg-info border"><div class="p-2 border border-dark bg-info">   <StaticImage
+                <div className="p-2 flex-fill bg-info border"><div className="p-2 border border-dark bg-info">   <StaticImage
               alt="La Rotonde"
               src="../images/Logoz.PNG"
               placeholder="blurred"
               layout="FULL-WIDTH" 
                        
             /></div></div>
-                <div class="p-2 flex-fill bg-info border"><div class="p-2 border border-dark bg-info">   <StaticImage
+                <div className="p-2 flex-fill bg-info border"><div className="p-2 border border-dark bg-info">   <StaticImage
               alt="La Rotonde"
               src="../images/Logoa.PNG"
               placeholder="blurred"

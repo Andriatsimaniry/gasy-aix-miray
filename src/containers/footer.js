@@ -3,7 +3,7 @@ import Footer from "../components/footer";
 import { FaFacebook, FaHeart, FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import { Copyright } from "./footer.module.css";
+// import { Copyright } from "./footer.module.css";
 
 export function FooterContainer() {
   return (
@@ -68,10 +68,13 @@ export function FooterContainer() {
           </Footer.Column>
         </Footer.Row>
       </Footer.Wrapper>
-      <p className={Copyright}>
-        Copyright © {new Date().getFullYear()} <FaHeart color="#FFF" />{" "}
+      {/* <p className={Copyright}> */}
+      <Footer.Copyright>
+      Copyright © {new Date().getFullYear()} <FaHeart color="#FFF" />{" "}
         NiryOmega
-      </p>
+      </Footer.Copyright>
+        
+      
     </Footer>
   );
 }

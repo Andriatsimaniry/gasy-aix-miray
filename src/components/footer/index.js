@@ -25,6 +25,6 @@ Footer.Title = function FooterTitle({ children, ...restProps }) {
   return <Title {...restProps}>{children}</Title>;
 };
 
-Footer.Vertical = function FooterTitle({ children, ...restProps }) {
+Footer.Copyright = function FooterCopyright({ children, ...restProps }) {
   return <Copyright {...restProps}>{children}</Copyright>;
 };

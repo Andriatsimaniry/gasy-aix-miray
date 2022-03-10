@@ -1,12 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  padding: 10px 10px;
+padding: 10px 10px;
   border-spacing: 5px;
   height:auto;
   width:100%;
   background: radial-gradient(circle, rgba(92,39,251,1) 0%, rgba(112,71,247,1) 100%);
-
   @media (max-width: 1000px) {
     padding: 70px 30px;
   }
@@ -57,17 +56,10 @@ export const Title = styled.p`
   margin-bottom: 40px;
   font-weight: bold;
 `;
-// export const Copyright = styled.p`
-// border-right: 2px solid white;
-// height: 270px;
-
-
-
-
-//   @media (max-width: 504px) {
-//     height: 0px;
-//     width: auto; 
-//     border-bottom: 1px solid white; 
-//   }
-// `;
+export const Copyright = styled.p`
+text-align: center;
+word-spacing: 10px;
+color: white;
+margin-top: 30px;
+`;
 
