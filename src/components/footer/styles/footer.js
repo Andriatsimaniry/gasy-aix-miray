@@ -2,12 +2,14 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 padding: 10px 10px;
+margin-top:20px;
   border-spacing: 5px;
   height:auto;
   width:100%;
-  background: radial-gradient(circle, rgba(92,39,251,1) 0%, rgba(112,71,247,1) 100%);
+  background-color: rgb(0, 14, 41);
+  // background: radial-gradient(circle, rgba(92,39,251,1) 0%, rgba(112,71,247,1) 100%);
   @media (max-width: 1000px) {
-    padding: 70px 30px;
+    padding: 10px 10px;
   }
 `;
 
@@ -39,9 +41,10 @@ export const Row = styled.div`
 `;
 
 export const Link = styled.a`
-  color: #fff;
+ 
+  color: rgba(255, 255, 255, 0.5);
   margin-bottom: 10px;
-  font-size: 16px;
+  font-size: 14px;
   text-decoration: none;
 
   &:hover {
@@ -51,15 +54,15 @@ export const Link = styled.a`
 `;
 
 export const Title = styled.p`
-  font-size: 22px;
+  font-size: 16px;
   color: #fff;
-  margin-bottom: 40px;
-  font-weight: bold;
+  margin-bottom: 20px;
+  // font-weight: bold;
 `;
 export const Copyright = styled.p`
 text-align: center;
-word-spacing: 10px;
-color: white;
+word-spacing: 5px;
+color: rgba(255, 255, 255, 0.5);
 margin-top: 30px;
 `;
 

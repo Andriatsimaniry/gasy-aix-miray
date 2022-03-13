@@ -1,121 +1,249 @@
 import * as React from "react";
 import Layout from "../components/layout";
-import { StaticImage } from "gatsby-plugin-image";
+// import { StaticImage } from "gatsby-plugin-image";
+import { Container, Card, Row, Col, Image } from "react-bootstrap";
+import ericImage from "../images/gasy-miray-eric1.png"
+import jaonaImage from "../images/gasy-miray-jaona.png"
+import patouImage from "../images/gasy-miray-patou.png"
+import dolpheImage from "../images/gasy-miray-dolphe3.png"
+import niryImage from "../images/gasy-miray-niry.jpg"
+import nirinaImage from "../images/gasy-miray-nirina.png"
+import zoImage from "../images/gasy-miray-zo.jpg"
+import tyxImage from "../images/gasy-miray-tyx.jpg"
+import doglassImage from "../images/gasy-miray-douglas.jpg"
+import rojoImage from "../images/gasy-miray-rojo.jpg"
+import odetteImage from "../images/gasy-miray-odette.jpg"
+
+
 
 const AboutPage = () => {
   return (
-    <Layout pageTitle="Les membres du  G.A.M">
-      <StaticImage
-        alt="La Rotonde"
-        src="../images/gasy-miray-eric.png"
-        placeholder="blurred"
-        layout="FULL_WIDTH"
-        
-      />
-      <p>Président : RAKOTOZAFY Eric</p>
+    <Layout pageTitle="Les bureaux du  G.A.M">
+       <Row>
+          <Col md={ 6 }>
+        <Container>       
+          <Card className="mb-3 w-100 h-100">
+            <Image 
+            src={ ericImage}
+            className="mx-auto d-block"
+             alt="eric image" 
+             fluid
+              />
+            <Card.Body>
+              <Card.Title><h3>Président</h3> </Card.Title>
+              <Card.Text>
+              RAKOTOMANGA Patrick.
+              </Card.Text>
+            </Card.Body>
+          </Card>         
+        </Container>
+        </Col>
+        <Col md={ 6 }>
+        <Container>       
+          <Card className="mb-3">
+          <Image 
+          src={ jaonaImage} 
+          className="card-img-top"
+          alt="eric image" 
+          fluid 
+          />
+            <Card.Body>
+              <Card.Title><h3>Vice Président</h3></Card.Title>
+              <Card.Text>
+              RANAIVOSOA Jaona
+              </Card.Text>
+            </Card.Body>
+          </Card>         
+        </Container>
+      </Col>
+     </Row>
 
-      <StaticImage
-        alt="La Rotonde"
-        src="../images/gasy-miray-jhon1.png"
-        placeholder="blurred"
-        layout="FULL_WIDTH"
-   
-      />
-      <p>Vice Président : RANAIVOSOA Jaona</p>
+     {/* Deux autres membre */}
 
-      <StaticImage
-        alt="La Rotonde"
-        src="../images/gasy-miray-patou1.png"
-        placeholder="blurred"
-        layout="FULL_WIDTH"
+     <Row>
+          <Col md={ 6 }>
+        <Container>       
+          <Card className="mb-3">
+            <Image 
+            src={ patouImage }
+            className="card-img-top"
+             alt="patou image" 
+             fluid
+              />
+            <Card.Body>
+              <Card.Title><h3>Conseiller</h3> </Card.Title>
+              <Card.Text>
+              RALAIMIHAOTRA Patou.
+              </Card.Text>
+            </Card.Body>
+          </Card>         
+        </Container>
+        </Col>
+        <Col md={ 6 }>
+        <Container>       
+          <Card className="mb-3">
+          <Image 
+          src={ dolpheImage } 
+          className="card-img-top"
+          alt="dolphe image" 
+          fluid 
+          />
+            <Card.Body>
+              <Card.Title><h3>Conseiller</h3></Card.Title>
+              <Card.Text>
+              RAKOTOZANANY Alain Dolphe
+              </Card.Text>
+            </Card.Body>
+          </Card>         
+        </Container>
+      </Col>
+     </Row>
+
+      {/* Deux autres membre */}
+      
+      <Row>
+          <Col md={ 6 }>
+        <Container>       
+          <Card className="mb-3">
+            <Image 
+            src={ niryImage}
+            className="card-img-top"
+             alt="niry image" 
+             fluid
+              />
+            <Card.Body>
+              <Card.Title><h3>Conseiller</h3> </Card.Title>
+              <Card.Text>
+              RANDRIAMBOLOLONTSOA NiryOmega.
+              </Card.Text>
+            </Card.Body>
+          </Card>         
+        </Container>
+        </Col>
+        <Col md={ 6 }>
+        <Container>       
+          <Card className="mb-3">
+          <Image 
+          src={ nirinaImage} 
+          className="card-img-top"
+          alt="nirina image" 
+          fluid 
+          />
+            <Card.Body>
+              <Card.Title><h3>Secrétaire</h3></Card.Title>
+              <Card.Text>
+              RAMANGASON Nirina.
+              </Card.Text>
+            </Card.Body>
+          </Card>         
+        </Container>
+      </Col>
+     </Row>
+
+     {/* Deux autres membre */}
+  
+<Row>
+          <Col md={ 6 }>
+        <Container>       
+          <Card className="mb-3">
+            <Image 
+            src={ zoImage}
+            className="card-img-top"
+             alt="zo image" 
+             fluid
+              />
+            <Card.Body>
+              <Card.Title><h3>Conseiller</h3> </Card.Title>
+              <Card.Text>
+              Andria zo.
+              </Card.Text>
+            </Card.Body>
+          </Card>         
+        </Container>
+        </Col>
+        <Col md={ 6 }>
+        <Container>       
+          <Card className="mb-3">
+          <Image 
+          src={ tyxImage} 
+          className="card-img-top"
+          alt="nirina image" 
+          fluid 
+          />
+            <Card.Body>
+              <Card.Title><h3>Conseiller</h3></Card.Title>
+              <Card.Text>
+              RAKOTONIRINA tyx.
+              </Card.Text>
+            </Card.Body>
+          </Card>         
+        </Container>
+      </Col>
+     </Row>
+
+{/* Deux autres membre */}
+<Row>
+          <Col md={ 6 }>
+        <Container>       
+          <Card className="mb-3">
+            <Image 
+            src={ doglassImage }
+            className="card-img-top"
+             alt="doglass image" 
+             fluid
+              />
+            <Card.Body>
+              <Card.Title><h3>Conseiller</h3> </Card.Title>
+              <Card.Text>
+              Douglas Hervé.
+              </Card.Text>
+            </Card.Body>
+          </Card>         
+        </Container>
+        </Col>
+        <Col md={ 6 }>
+        <Container>       
+          <Card className="mb-3">
+          <Image 
+          src={ rojoImage} 
+          className="card-img-top"
+          alt="rojo image" 
+          fluid 
+          />
+            <Card.Body>
+              <Card.Title><h3>Trésorière</h3></Card.Title>
+              <Card.Text>
+              Rojo.
+              </Card.Text>
+            </Card.Body>
+          </Card>         
+        </Container>
+      </Col>
+     </Row>
+{/* Deux autres membre */}
+     <Row>
+          <Col md={ 6 }>
+        <Container>       
+          <Card className="mb-3">
+            <Image 
+            src={ odetteImage}
+            className="card-img-top"
+             alt="odette image" 
+             fluid
+              />
+            <Card.Body>
+              <Card.Title><h3>Trésorière</h3> </Card.Title>
+              <Card.Text>
+              Odette.
+              </Card.Text>
+            </Card.Body>
+          </Card>         
+        </Container>
+        </Col>
        
-      />
-      <p>Premier Conseiller : RALAIMIHAOTRA Patrice</p>
-      <StaticImage
-        alt="La Rotonde"
-        src="../images/gasy-miray-dolphe.jpg"
-        placeholder="blurred"
-        layout="FULL_WIDTH"
-        
-      />
-      <p>Deuxième Conseiller: RAKOTOZANANY Alain Dolphe </p>
+     </Row>
 
-      <StaticImage
-        alt="La Rotonde"
-        src="../images/gasy-miray-niry.png"
-        placeholder="blurred"
-        layout="FULL_WIDTH"
-        
-      />
-      <p>Troisième Conseiller: RANDRIAMBOLOLONTSOA NiryOmega </p>
-     
-      <StaticImage
-        alt="La Rotonde"
-        src="../images/gasy-miray-nirina.jpg"
-        placeholder="blurred"
-        layout="FULL_WIDTH"
-        
-      />
-      <p>Secrétaire: RAMANGASON Nirina </p>
-      {/* <div class="container">
-        <div class="d-flex justify-content-start bg-warning m-2">
-          <div className="p-2 border border-dark bg-info">Element flex1</div>
-          <div class="p-2 border border-dark bg-info">Elément flex 2</div>
-          <div class="p-2 border border-dark bg-info">Elément flex 3</div>
-        </div>
-        <div class="d-flex justify-content-between bg-warning m-2">
-               <div class="p-2 border border-dark bg-info"><div class="p-2 border border-dark bg-info">   <StaticImage
-              alt="La Rotonde"
-              src="../images/Logoa.PNG"
-              placeholder="blurred"
-              layout="fixed" 
-                       
-            /></div></div>
-               <div class="p-2 border border-dark bg-info">Elément flex 2</div>
-               <div class="p-2 border border-dark bg-info">Elément flex 3</div>
-             </div> */}
-           {/* justify-content-center pour les petits écrans puis justify-content-between dès qu'on passe le breakpoint lg  */}
-       {/* <div class="d-flex justify-content-center justify-content-lg-between bg-warning m-2">
-               <div class="p-2 border border-dark bg-info">Elément flex 1</div>
-               <div class="p-2 border border-dark bg-info">Elément flex 2</div>
-               <div class="p-2 border border-dark bg-info">Elément flex 3</div>
-             </div>
-             <div class="d-flex flex-column align-items-stretch bg-warning my-2">
-               <div class="p-2 bg-info border"><div class="p-2 border border-dark bg-info">   <StaticImage
-              alt="La Rotonde"
-              src="../images/Logoa.PNG"
-              placeholder="blurred"
-              layout="FULL-WIDTH" 
-                       
-            /></div></div>
-               <div class="p-2 bg-info border">Flex élément 2</div>
-               <div class="p-2 bg-info border">Flex élément 3</div>
-             </div>
-             <div class="d-flex my-2 bg-warning">
-                <div class="p-2 flex-fill bg-info border"><div class="p-2 border border-dark bg-info">   <StaticImage
-              alt="La Rotonde"
-              src="../images/Logoa.PNG"
-              placeholder="blurred"
-              layout="FULL-WIDTH" 
-                       
-            /></div></div>
-                <div class="p-2 flex-fill bg-info border"><div class="p-2 border border-dark bg-info">   <StaticImage
-              alt="La Rotonde"
-              src="../images/Logoz.PNG"
-              placeholder="blurred"
-              layout="FULL-WIDTH" 
-                       
-            /></div></div>
-                <div class="p-2 flex-fill bg-info border"><div class="p-2 border border-dark bg-info">   <StaticImage
-              alt="La Rotonde"
-              src="../images/Logoa.PNG"
-              placeholder="blurred"
-              layout="FULL-WIDTH" 
-                       
-            /></div></div>
-             </div>
-        
-      </div>  */}
+
     </Layout>
   );
 };

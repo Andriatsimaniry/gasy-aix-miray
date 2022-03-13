@@ -14,7 +14,7 @@ export function FooterContainer() {
           <Footer.Column>
             <Footer.Title>A Propos </Footer.Title>          
             <Footer.Link href="/blog/calendrier/">Histoire</Footer.Link>
-            <Footer.Link href="/blog/liste-des-membres/">Membre</Footer.Link>
+            <Footer.Link href="/blog/liste-des-membres/">Adhérent</Footer.Link>
             <Footer.Link href="/about">Projet</Footer.Link>
             <Footer.Link href="https://www.diplomatie.gov.mg/index.php/liens-utiles">
               Liens Utiles
@@ -54,24 +54,24 @@ export function FooterContainer() {
           <Footer.Column>
             <Footer.Title>Social</Footer.Title>
             <Footer.Link href="https://www.Facebook.com/">
-              <FaFacebook size="30" color="#ffF" /> Facebook
+              <FaFacebook size="20" color="rgba(255, 255, 255, 0.5)" /> Facebook
             </Footer.Link>
             <Footer.Link href="https://www.instagram.com/">
-              <FaInstagram size="30" color="FFF" /> Instagram
+              <FaInstagram size="20" color="rgba(255, 255, 255, 0.5)" /> Instagram
             </Footer.Link>
             <Footer.Link href="https://www.youtube.com/watch?v=Igihdg_uW94">
-              <FaYoutube size="30" color="#FFF" /> Youtube
+              <FaYoutube size="20" color="rgba(255, 255, 255, 0.5)" /> Youtube
             </Footer.Link>
             <Footer.Link href="https://twitter.com/Randria73775597">
-              <FaTwitter size="30" color="#FFF" /> Twitter
+              <FaTwitter size="20" color="rgba(255, 255, 255, 0.5)" /> Twitter
             </Footer.Link>
           </Footer.Column>
         </Footer.Row>
       </Footer.Wrapper>
       {/* <p className={Copyright}> */}
       <Footer.Copyright>
-      Copyright © {new Date().getFullYear()} <FaHeart color="#FFF" />{" "}
-        NiryOmega
+      Copyright © {new Date().getFullYear()}, <FaHeart color="rgba(255, 255, 255, 0.5)" />.
+        NiryOmega, All rights reserved. 
       </Footer.Copyright>
         
       
