@@ -18,7 +18,7 @@ import odetteImage from "../images/gasy-miray-odette.jpg"
 
 const AboutPage = () => {
   return (
-    <Layout pageTitle="Les bureaux du  G.A.M">
+    <Layout pageTitle="Le bureau du  G.A.M">
        <Row>
           <Col md={ 6 }>
         <Container>       
