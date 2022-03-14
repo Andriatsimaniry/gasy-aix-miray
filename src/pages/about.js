@@ -173,7 +173,7 @@ const AboutPage = () => {
             <Card.Body>
               <Card.Title><h3>Conseiller</h3></Card.Title>
               <Card.Text>
-              RAKOTONIRINA tyx.
+              Andrianiriana tyx.
               </Card.Text>
             </Card.Body>
           </Card>         
@@ -213,7 +213,7 @@ const AboutPage = () => {
             <Card.Body>
               <Card.Title><h3>Trésorière</h3></Card.Title>
               <Card.Text>
-              Rojo.
+              KURKOVA Rojo.
               </Card.Text>
             </Card.Body>
           </Card>         
@@ -234,7 +234,7 @@ const AboutPage = () => {
             <Card.Body>
               <Card.Title><h3>Trésorière</h3> </Card.Title>
               <Card.Text>
-              Odette.
+              RAHAERISOA Odette.
               </Card.Text>
             </Card.Body>
           </Card>         

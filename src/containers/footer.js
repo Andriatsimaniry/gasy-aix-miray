@@ -14,8 +14,8 @@ export function FooterContainer() {
           <Footer.Column>
             <Footer.Title>A Propos </Footer.Title>          
             <Footer.Link href="/blog/calendrier/">Histoire</Footer.Link>
-            <Footer.Link href="/blog/liste-des-membres/">Adhérent</Footer.Link>
-            <Footer.Link href="/about">Projet</Footer.Link>
+            <Footer.Link href="/about/">Adhérent</Footer.Link>
+            <Footer.Link href="/blog/calendrier/">Projet</Footer.Link>
             <Footer.Link href="https://www.diplomatie.gov.mg/index.php/liens-utiles" rel="noopener noreferrer" target="_blank">
               Liens Utiles
             </Footer.Link>
@@ -44,9 +44,9 @@ export function FooterContainer() {
         
             <Footer.Title>Nous contacter</Footer.Title>            
             <Footer.Link href="/blog/liste-des-membres">E-mail</Footer.Link>
-            <Footer.Link href="#">Adresse</Footer.Link>
-            <Footer.Link href="#">Telephone</Footer.Link>
-            <Footer.Link href="#">Support</Footer.Link>
+            <Footer.Link href="/blog/liste-des-membres">Adresse</Footer.Link>
+            <Footer.Link href="/blog/liste-des-membres">Telephone</Footer.Link>
+            <Footer.Link href="/blog/liste-des-membres">Support</Footer.Link>
             {/* <span className={Vertical}></span> */}
             
           </Footer.Column>

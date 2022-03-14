@@ -4,7 +4,7 @@ import Frame from '../components/frame'
 const GalleryPage = () => {
   return (
     <Frame>   
-      <p>Cela sera transmis comme des enfants</p>
+      
       <div class="container">
       <h1>Les Membres du GAM</h1>
       <table class="table table-bordered">
@@ -23,8 +23,8 @@ const GalleryPage = () => {
             <td>RAKOTOMANGA</td>
             <td>Patrick</td>
             <td>Président</td>
-            <td>eric.rakotozafy@gasyaixmiray.fr</td>
-            <td>A completer</td>
+            <td>gasyaixmiray@gmail.com</td>
+            <td>06.66.69.37.50</td>
             <td>A completer</td>
             <td>A completer</td>
           </tr>
@@ -32,7 +32,7 @@ const GalleryPage = () => {
             <td>RANAIVOSOA</td>
             <td>Jaona</td>
             <td>Vice Président</td>
-            <td>j.ranaivosoa@gasyaixmiray.fr</td>
+            <td>gasyaixmiray@gmail.com</td>
             <td>A completer</td>
             <td>A completer</td>
             <td>A completer</td>
@@ -40,8 +40,8 @@ const GalleryPage = () => {
           <tr>
             <td>RALAIMIHAOTRA</td>
             <td>Patrice</td>
-            <td>1er Conseiller</td>
-            <td>p.ralaimihaotra@gasyaixmiray.fr</td>
+            <td>Conseiller</td>
+            <td>gasyaixmiray@gmail.com</td>
             <td>A completer</td>
             <td>A completer</td>
             <td>A completer</td>
@@ -49,8 +49,8 @@ const GalleryPage = () => {
           <tr>
             <td>RAKOTOZANANY</td>
             <td>Alain Dolphe</td>
-            <td>2ème Conseiller</td>
-            <td>a.rakotozanany@gasyaixmiray.fr</td>
+            <td>Conseiller</td>
+            <td>gasyaixmiray@gmail.com</td>
             <td>A completer</td>
             <td>A completer</td>
             <td>A completer</td>
@@ -58,9 +58,9 @@ const GalleryPage = () => {
           <tr>
             <td>RANDRIAMBOLOLONTSOA</td>
             <td>NiryOmega</td>
-            <td>3éme Conseiller</td>
-            <td>niryomega@gasyaixmiray.fr</td>
-            <td>A completer</td>
+            <td>Conseiller</td>
+            <td>gasyaixmiray@gmail.com</td>
+            <td>06.69.68.45.37</td>
             <td>A completer</td>
             <td>A completer</td>
           </tr> 
@@ -68,7 +68,61 @@ const GalleryPage = () => {
             <td>RAMAGASON</td>
             <td>Nirina</td>
             <td>Secrétaire</td>
-            <td>a.ramangason@gasyaixmiray.fr</td>
+            <td>gasyaixmiray@gmail.com</td>
+            <td>06.28.06.03.13</td>
+            <td>A completer</td>
+            <td>A completer</td>
+          </tr>
+          <tr>
+            <td>RAHAERISOA</td>
+            <td>Odette</td>
+            <td>Trésorière</td>
+            <td>gasyaixmiray@gmail.com</td>
+            <td>06.79.83.61.58</td>
+            <td>A completer</td>
+            <td>A completer</td>
+          </tr>
+          <tr>
+            <td>KURKOVA</td>
+            <td>Rojo</td>
+            <td>Trésorière</td>
+            <td>gasyaixmiray@gmail.com</td>
+            <td>06.13.03.25.36</td>
+            <td>A completer</td>
+            <td>A completer</td>
+          </tr>
+          <tr>
+            <td>Andria</td>
+            <td>Zo</td>
+            <td>Conseiller</td>
+            <td>gasyaixmiray@gmail.com</td>
+            <td>A completer</td>
+            <td>A completer</td>
+            <td>A completer</td>
+          </tr>
+          <tr>
+            <td>Andrianiriana</td>
+            <td>Tyx</td>
+            <td>Conseiller</td>
+            <td>gasyaixmiray@gmail.com</td>
+            <td>A completer</td>
+            <td>A completer</td>
+            <td>A completer</td>
+          </tr>
+          <tr>
+            <td>Douglas</td>
+            <td>Hervé</td>
+            <td>Conseiller</td>
+            <td>gasyaixmiray@gmail.com</td>
+            <td>A completer</td>
+            <td>A completer</td>
+            <td>A completer</td>
+          </tr>
+          <tr>
+            <td>Botobotonangivy</td>
+            <td>Patrice</td>
+            <td>Conseiller</td>
+            <td>gasyaixmiray@gmail.com</td>
             <td>A completer</td>
             <td>A completer</td>
             <td>A completer</td>

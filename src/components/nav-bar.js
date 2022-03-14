@@ -39,19 +39,18 @@ export default function NavBar() {
                 </a>
               </li>
               <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="/about">
+                  Bureau du GAM
+                </a>
+              </li>
+              <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="/blog/publication">
                   Publication
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="/blog/calendrier">
-                  Calendrier
-                </a>
-              </li>
-              
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/about">
-                  Bureau du GAM
+                  Projet
                 </a>
               </li>
               <li className="nav-item">
