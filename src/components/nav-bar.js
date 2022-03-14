@@ -55,11 +55,6 @@ export default function NavBar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/blog/liste-des-membres">
-                  Projet
-                </a>
-              </li>
-              <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="/app/galerie">
                   Adhérent
                 </a>
@@ -67,6 +62,11 @@ export default function NavBar() {
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="/app/profile">
                   Profil
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="/blog/liste-des-membres">
+                  Contact
                 </a>
               </li>
             </ul>

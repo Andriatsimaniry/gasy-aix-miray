@@ -43,7 +43,7 @@ export function FooterContainer() {
           <Footer.Column>
         
             <Footer.Title>Nous contacter</Footer.Title>            
-            <Footer.Link href="#">E-mail</Footer.Link>
+            <Footer.Link href="/blog/liste-des-membres">E-mail</Footer.Link>
             <Footer.Link href="#">Adresse</Footer.Link>
             <Footer.Link href="#">Telephone</Footer.Link>
             <Footer.Link href="#">Support</Footer.Link>
