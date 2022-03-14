@@ -34,12 +34,12 @@ export default function NavBar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-2 mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active"  color="#00ffff" aria-current="page" href="/">
+                <a className="nav-link active"   aria-current="page" href="/">
                   Acceuil
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/about">
+                <a className="nav-link active" aria-current="page" href="/about" text-info>
                   Bureau du GAM
                 </a>
               </li>

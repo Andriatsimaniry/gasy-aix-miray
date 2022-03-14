@@ -16,8 +16,8 @@ const Profile = () => (
     <Card>
       <Card.Body>
       <Card.Title><h3>Rapport réunion du  10/03/2022 Chez Nirina</h3></Card.Title>
-        <Card.Text>Présents à la réunion:
-          <ul>
+        <Card.Text>Ny tonga nanatrika ny fivoriana :
+        <ol>
             <li>Eric</li>
             <li>Nirina</li>
             <li>Dolphe</li>
@@ -27,7 +27,7 @@ const Profile = () => (
             <li>Rojo</li>
             <li>Niry</li>
             <li>Patrice</li>
-          </ul>
+          </ol>
           <p>Ny tapaka tao : Ny fandoavana ny "adhésion" dia efa manomboka<br/>
             ka miangavy antsika izay tsy mbola nanantotosa izany hanantona<br/> 
             @ Rojo tél: 06.13.03.25.36 na <br/>

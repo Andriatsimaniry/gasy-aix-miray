@@ -1,7 +1,7 @@
 import * as React from "react";
 import NavBar from "./nav-bar";
 import { useStaticQuery, graphql } from "gatsby";
-import { Container, heading } from "./layout.module.css";
+import {  heading } from "./layout.module.css";
 import { FooterContainer } from "../containers/footer";
 
 
@@ -16,7 +16,7 @@ const Layout = ({ pageTitle, children }) => {
     }
   `);
   return (
-    <div className={ Container }>
+    <div>
       <NavBar />
       <title>
         {pageTitle} | {data.site.siteMetadata.title}

@@ -6,7 +6,7 @@ const GalleryPage = () => {
     <Frame>   
       
       <div class="container">
-      <h1>Les Membres du GAM</h1>
+     
       <table class="table table-bordered">
         <thead>
           <tr>

@@ -3,8 +3,8 @@ import Layout from "../components/layout";
 import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
 import { getUser, isLoggedIn } from "../services/auth";
-import { Row, Col, Container } from "react-bootstrap";
-<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />;
+import { Row, Container } from "react-bootstrap";
+
 
 
 function IndexPage() {
@@ -75,11 +75,11 @@ function IndexPage() {
         </Row>
 
         <Row>
-          <Col xs lg="2">
+          
             <h5 className="d-inline-block align-top text-primary">
               Bonjour {isLoggedIn() ? getUser().name : "GAM"}!
             </h5>
-          </Col>
+          
         </Row>
         <p>
           {isLoggedIn() ? (
