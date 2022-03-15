@@ -1,7 +1,7 @@
 import React from "react";
 import { navigate } from "gatsby";
 import { handleLogin, isLoggedIn } from "../services/auth";
-import { Container } from "./layout.module.css";
+import { Container, Card } from "react-bootstrap";
 class Login extends React.Component {
   state = {
     username: ``,
@@ -21,18 +21,20 @@ class Login extends React.Component {
       navigate(`/app/profile`);
     }
     return (
-      <div className={Container}>
-        <h1>Connection</h1>
+      <Container>
+       <Card className="text-center">
+         <Card.Title><h1 >Connection</h1></Card.Title>
+        
         <form
           method="post"
           onSubmit={(event) => {
-            this.handleSubmit(event);
-            navigate(`/app/profile`);
+          this.handleSubmit(event);
+          navigate(`/app/profile`);
           }}
         >
           <label>
             Nom
-            <input type="text" name="username" onChange={this.handleUpdate} />
+            <input  type="text" name="username" onChange={this.handleUpdate} />
           </label>
           <label>
             Mot de Passe
@@ -46,7 +48,8 @@ class Login extends React.Component {
             Connecter
           </button>
         </form>
-      </div>
+        </Card>
+        </Container>
     );
   }
 }
