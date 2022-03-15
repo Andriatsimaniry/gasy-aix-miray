@@ -24,7 +24,7 @@ const Layout = ({ pageTitle, children }) => {
       {/* <header className={siteTitle}>{data.site.siteMetadata.title}
       </header> */}
       <main>
-        <h1 className={heading}>{pageTitle}</h1>
+        <h1 className={ heading }>{pageTitle}</h1>
         {children}
       </main>
       <footer>

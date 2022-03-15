@@ -90,7 +90,7 @@ const GalleryPage = () => {
             <td>A completer</td>          
           </tr>
           <tr>
-            <td>BOTOBOTONANGIVY</td>
+            <td>TOTOLO</td>
             <td>Patrice</td>
             <td>Conseiller</td>          
             <td>A completer</td>         

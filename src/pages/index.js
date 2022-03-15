@@ -14,6 +14,7 @@ import doglassImage from "../images/gasy-miray-douglas.jpg";
 import rojoImage from "../images/gasy-miray-rojo.jpg";
 import odetteImage from "../images/gasy-miray-odette.jpg";
 import nathalieImage from "../images/gasy-miray-nathalie.jpg";
+import totoloImage from "../images/gasy-miray-totolo.jpg";
 
 
 
@@ -270,7 +271,30 @@ function IndexPage() {
             </Card>
           </Container>
         </Col>
-      </Row>       
+      </Row> 
+      
+      <Row>
+      <Col md={6}>
+          <Container>
+            <Card className="mb-3">
+              <Image
+                src={totoloImage}
+                className="card-img-top"
+                alt="totolo image"
+                fluid
+              />
+              <Card.Body>
+                <Card.Title>
+                  <h3>Conseiller</h3>{" "}
+                </Card.Title>
+                <Card.Text>TOTOLO Patrice.</Card.Text>
+              </Card.Body>
+            </Card>
+          </Container>
+        </Col>
+      </Row>
+        
+            
       </Layout>
       ,
     </Container>
