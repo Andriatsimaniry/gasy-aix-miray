@@ -38,11 +38,7 @@ export default function NavBar() {
                   Acceuil
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/about" text-info>
-                  Bureau du GAM
-                </a>
-              </li>
+              
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="/blog/publication">
                   Publication
@@ -61,6 +57,11 @@ export default function NavBar() {
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="/app/profile">
                   Profil
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="/about" text-info>
+                  Gallerie
                 </a>
               </li>
               <li className="nav-item">
