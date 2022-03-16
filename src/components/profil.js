@@ -27,6 +27,7 @@ const Profile = () => (
             <li>Rojo</li>
             <li>Niry</li>
             <li>Patrice</li>
+            <li>Nathalie</li>
           </ol>
           <p>Ny tapaka tao : Ny fandoavana ny "adhésion" dia efa manomboka<br/>
             ka miangavy antsika izay tsy mbola nanantotosa izany hanantona<br/> 
