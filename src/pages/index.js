@@ -7,7 +7,7 @@ import jaonaImage from "../images/gasy-miray-jaona.png";
 import patouImage from "../images/gasy-miray-patou.png";
 import dolpheImage from "../images/gasy-miray-dolphe3.png";
 import niryImage from "../images/gasy-miray-niry.jpg";
-import nirinaImage from "../images/gasy-miray-nirina.png";
+import nirinaImage from "../images/gasy-miray-nirina.jpg";
 import zoImage from "../images/gasy-miray-zo.jpg";
 import tyxImage from "../images/gasy-miray-tyx.jpg";
 import doglassImage from "../images/gasy-miray-douglas.jpg";
