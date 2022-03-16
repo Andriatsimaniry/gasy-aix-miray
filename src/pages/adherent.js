@@ -24,12 +24,6 @@ const AdherentPage = () => {
             <td>06.66.69.37.50</td>            
           </tr>
           <tr>
-            <td>RANAIVOSOA</td>
-            <td>Jaona</td>
-            <td>Vice Président</td>
-            <td>A completer</td>            
-          </tr>
-          <tr>
             <td>RALAIMIHAOTRA</td>
             <td>Patrice</td>
             <td>Vice Président</td>
