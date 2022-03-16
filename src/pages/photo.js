@@ -10,7 +10,7 @@ const Photo = () => {
 
     <Container>
       {/* <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} /> */}
-      <h1>Photo</h1>
+      <h3>Photo (cliquer pour agrandir)</h3>
       
  <Gallery /> 
       
