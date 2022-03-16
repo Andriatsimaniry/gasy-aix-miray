@@ -3,7 +3,7 @@ import { navigate } from "gatsby";
 import { isLoggedIn, logout } from "../services/auth";
 import { Navbar, Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Logo from "../assets/img/Logoa.png";
+import Logo from "../assets/img/Logoa.jpg";
 
 export default function NavBar() {
   return (
@@ -14,8 +14,8 @@ export default function NavBar() {
             <img
               alt=""
               src={ Logo }
-              width="80"
-              height="80"
+              width="120"
+              height="100"
               className="d-inline-block align-top "
             />
             <h1 className="d-inline-block align-top text-primary">G.A.M</h1>
@@ -50,7 +50,7 @@ export default function NavBar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/app/galerie">
+                <a className="nav-link active" aria-current="page" href="/app/adherent">
                   Adhérent
                 </a>
               </li>
@@ -60,7 +60,7 @@ export default function NavBar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/about" text-info>
+                <a className="nav-link active" aria-current="page" href="/app/photo" text-info>
                   Gallerie
                 </a>
               </li>

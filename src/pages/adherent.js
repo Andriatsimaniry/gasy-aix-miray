@@ -1,7 +1,7 @@
 import React from 'react'
 import Frame from '../components/frame'
 import { Container, Card } from 'react-bootstrap'
-const GalleryPage = () => {
+const AdherentPage = () => {
   return (
     <Frame>   
       <Container>
@@ -104,4 +104,4 @@ const GalleryPage = () => {
   )
 }
 
-export default GalleryPage
+export default AdherentPage;
