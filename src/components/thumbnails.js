@@ -11,14 +11,14 @@ const style = theme => ({
     border: "none",
     padding: 0,
     margin: 0,
-    width: 200,
-    height: 200,
+    width: 400,
+    height: 300,
     borderRadius: 4,
     boxShadow: "0 0 25px -5px rgba(0,0,0,0.3)",
   },
   thumbnail: {
-    width: 200,
-    height: 200,
+    width: 400,
+    height: 300,
     borderRadius: 4,
   },
 })

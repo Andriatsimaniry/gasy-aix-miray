@@ -61,7 +61,7 @@ export default function NavBar() {
               </li>
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="/app/photo" text-info>
-                  Gallerie
+                  Galerie
                 </a>
               </li>
               <li className="nav-item">
