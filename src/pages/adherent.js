@@ -52,7 +52,7 @@ const AdherentPage = () => {
               <td>nathalie.remacly@yahoo.fr</td>
             </tr>
             <tr>
-              <td>Maurice</td>
+              <td>MAURICE</td>
               <td>Joro Rojo</td>
               <td>Trésorière</td>
               <td>06.13.03.25.36</td>
