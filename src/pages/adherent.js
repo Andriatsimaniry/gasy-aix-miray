@@ -32,7 +32,7 @@ const AdherentPage = () => {
             </tr>
             <tr>
               <td>RANDRIAMBOLOLONTSOA</td>
-              <td>NiryOmega</td>
+              <td>Andriatsimaniry</td>
               <td>Vice Président</td>
               <td>06.69.68.45.37</td>
               <td>niryomega@free.fr</td>

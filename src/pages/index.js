@@ -5,8 +5,8 @@ import { Container, Card, Row, Col, Image } from "react-bootstrap";
 
 import ericImage from "../images/gasy-miray-eric1.png";
 import patouImage from "../images/gasy-miray-patou.png";
-import dolpheImage from "../images/gasy-miray-dolphe3.png";
-import niryImage from "../images/gasy-miray-niry.jpg";
+import dolpheImage from "../images/gasy-miray-dolphe.png";
+import niryImage from "../images/gasy-miray-niry.png";
 import nirinaImage from "../images/gasy-miray-nirina.jpg";
 import zoImage from "../images/gasy-miray-zo.jpg";
 import tyxImage from "../images/gasy-miray-tyx.jpg";
