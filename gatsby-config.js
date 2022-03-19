@@ -81,6 +81,16 @@ module.exports = {
             },
           },
         ],
+        plugins: [
+          {
+            resolve: `gatsby-remark-copy-linked-files`,
+            options: {
+              destinationDir: `fichier`,
+              // ignoreFileExtensions: [`png`, `jpg`, `jpeg`, `bmp`, `tiff`],
+              ignoreFileExtensions: [],
+            },
+          },
+      ],
       },
     },
 

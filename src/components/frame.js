@@ -7,7 +7,7 @@ const Frame = ({ children }) => {
     
     <div>
     
-      <h1>Liste des membres</h1>
+      <h1>Liste des membres Conseil d'Administration</h1>
       { children }
     </div>
     

@@ -13,8 +13,8 @@ export function FooterContainer() {
         
           <Footer.Column>
             <Footer.Title>A Propos </Footer.Title>          
-            <Footer.Link href="/blog/calendrier/">Histoire</Footer.Link>
-            <Footer.Link href="/about/">Adhérent</Footer.Link>
+            <Footer.Link href="https://www.rns-cen.com/category/rns/" rel="noopener noreferrer" target="_blank">RNS</Footer.Link>
+            <Footer.Link href="/app/adherent">Adhérent</Footer.Link>
             <Footer.Link href="/blog/calendrier/">Projet</Footer.Link>
             <Footer.Link href="https://www.diplomatie.gov.mg/index.php/liens-utiles" rel="noopener noreferrer" target="_blank">
               Liens Utiles
@@ -59,7 +59,7 @@ export function FooterContainer() {
             <Footer.Link href="https://www.instagram.com/" rel="noopener noreferrer" target="_blank">
               <FaInstagram size="20" color="rgba(255, 255, 255, 0.5)" /> Instagram
             </Footer.Link>
-            <Footer.Link href="https://www.youtube.com/watch?v=Igihdg_uW94" rel="noopener noreferrer" target="_blank">
+            <Footer.Link href="https://www.youtube.com/watch?v=Igihdg_uW9" rel="noopener noreferrer" target="_blank">
               <FaYoutube size="20" color="rgba(255, 255, 255, 0.5)" /> Youtube
             </Footer.Link>
             <Footer.Link href="https://twitter.com/Randria73775597" rel="noopener noreferrer" target="_blank">

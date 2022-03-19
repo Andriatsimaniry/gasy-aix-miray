@@ -184,7 +184,7 @@ function IndexPage() {
                   <Card.Title>
                     <h3>Conseiller</h3>
                   </Card.Title>
-                  <Card.Text>RAKOTOZANANY Alain Dolphe</Card.Text>
+                  <Card.Text>RAKOTOZANANY Alain ADolphe</Card.Text>
                 </Card.Body>
               </Card>
             </Container>
@@ -207,7 +207,7 @@ function IndexPage() {
                   <Card.Title>
                     <h3>Conseiller</h3>
                   </Card.Title>
-                  <Card.Text>Andria Luc Zo.</Card.Text>
+                  <Card.Text>Andry Luc.</Card.Text>
                 </Card.Body>
               </Card>
             </Container>
@@ -226,7 +226,7 @@ function IndexPage() {
                   <Card.Title>
                     <h3>Conseiller</h3>
                   </Card.Title>
-                  <Card.Text>Andrianiriana tyx.</Card.Text>
+                  <Card.Text>Andrianiriana Marc.</Card.Text>
                 </Card.Body>
               </Card>
             </Container>
@@ -249,7 +249,7 @@ function IndexPage() {
                   <Card.Title>
                     <h3>Conseiller</h3>{" "}
                   </Card.Title>
-                  <Card.Text>Douglas Hervé.</Card.Text>
+                  <Card.Text>RABARISON Hervé.</Card.Text>
                 </Card.Body>
               </Card>
             </Container>
