@@ -81,7 +81,7 @@ function IndexPage() {
                   <Card.Title>
                     <h3>Vice Président</h3>{" "}
                   </Card.Title>
-                  <Card.Text>RANDRIAMBOLOLONTSOA NiryOmega.</Card.Text>
+                  <Card.Text>RANDRIAMBOLOLONTSOA Andriatsimaniry.</Card.Text>
                 </Card.Body>
               </Card>
             </Container>
