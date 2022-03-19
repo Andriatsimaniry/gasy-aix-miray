@@ -38,7 +38,7 @@ const AdherentPage = () => {
               <td>niryomega@free.fr</td>
             </tr>
             <tr>
-              <td>RAMAGASON</td>
+              <td>RAMANGASON</td>
               <td>Nirina</td>
               <td>Secrétaire</td>
               <td>06.28.06.03.13</td>
