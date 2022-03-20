@@ -15,7 +15,8 @@ export function FooterContainer() {
             <Footer.Title>A Propos </Footer.Title>          
             <Footer.Link href="https://www.rns-cen.com/category/rns/" rel="noopener noreferrer" target="_blank">RNS</Footer.Link>
             <Footer.Link href="/app/adherent">Adhérent</Footer.Link>
-            <Footer.Link href="/blog/calendrier/">Projet</Footer.Link>
+            <Footer.Link href="https://www.expat.com/fr/petites-annonces/afrique/madagascar/3/" rel="noopener noreferrer" target="_blank">
+              Petites annonces Madagascar</Footer.Link>
             <Footer.Link href="https://www.diplomatie.gov.mg/index.php/liens-utiles" rel="noopener noreferrer" target="_blank">
               Liens Utiles
             </Footer.Link>
