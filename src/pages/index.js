@@ -56,7 +56,7 @@ function IndexPage() {
                 />
                 <Card.Body>
                   <Card.Title>
-                    <h3>Vice Président</h3>{" "}
+                    <h3>Conseiller Spécial</h3>{" "}
                   </Card.Title>
                   <Card.Text>RALAIMIHAOTRA Patrice.</Card.Text>
                 </Card.Body>
