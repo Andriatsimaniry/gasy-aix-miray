@@ -23,7 +23,7 @@ class Login extends React.Component {
     return (
       <Container>
        <Card className="text-center">
-         <Card.Title><h1 >Connection</h1></Card.Title>
+         <Card.Title><h1 >Connexion</h1></Card.Title>
         
         <form
           method="post"
