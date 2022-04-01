@@ -20,7 +20,7 @@ function IndexPage() {
   return (
     <Container fluid pageTitle="Le Bureau du GAM">
       <Layout pageTitle="Bienvenue sur le site du G.A.M (Gasy Aix En Provence Miray)">
-        <h3 className="text-center">Le Bureau du GAM</h3>
+        <h3 className="text-center">Bureau du GAM et Conseillers</h3>
 
         {/* Eric sy Patou  */}
         <Row>
