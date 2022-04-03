@@ -18,7 +18,7 @@ import totoloImage from "../images/gasy-miray-totolo.jpg";
 
 function IndexPage() {
   return (
-    <Container fluid pageTitle="Le Bureau du GAM">
+    <Container fluid pageTitle="Le Bureau du GAM et Coseillers">
       <Layout pageTitle="Bienvenue sur le site du G.A.M (Gasy Aix En Provence Miray)">
         <h3 className="text-center">Bureau du GAM et Conseillers</h3>
 
