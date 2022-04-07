@@ -11,7 +11,7 @@ const Profile = () => (
       <li>Nom: {getUser().name}</li>
       <li>E-mail: {getUser().email}</li>
     </ul>
-  </div>,
+  </div>
   
     <Card>
       <Card.Body>
@@ -22,7 +22,7 @@ const Profile = () => (
             de 11H00 à 21H00<br/>
           </h3>
           </Card.Title>
-         <h4>LISTE SAKAFO :</h4>   
+         <h4>LISTE SAKAFO :</h4>  
 
 <b>Rojo sy Tiana</b> :  Heineken, Desperados, Vin   . Desserts<br/>
 <b>Nirina</b> : Voanjobory , Café, Sakay<br/>
@@ -33,7 +33,17 @@ const Profile = () => (
 <b>Christophe (Tofa)</b>: samossa sy saucisses.<br/>
 <b>Patrice</b>: Fatana Barbecue.<br/>
 <b>Tyx, Nathalie, Dolphe, Eric</b>: gâteaux.<br/>
-<br/>
+<b>Odette, Eric, Nirina</b>: Champagnes<br/>
+<br/><br/>
+<h4>Cotisation et Participation salle</h4>
+<p>Aza adino ny mitondra ny cotisation <b>10euros</b> izay tsy mbola nandoa<br/>
+ ny hofan'ny salle <b>5euros</b> <br/>
+ ny famangina Josia sy Patrice <b>(izay foy)</b> <br/></p>
+      
+      
+      
+      
+      
       <Card.Title><h3>Rapport réunion du  10/03/2022 Chez Nirina</h3></Card.Title>
         <Card.Text>Ny tonga nanatrika ny fivoriana :
         <ol>
