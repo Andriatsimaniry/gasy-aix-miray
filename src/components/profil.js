@@ -54,7 +54,7 @@ const Profile = () => (
 <b>Ndrina</b>  :  Charbon , sacs poubelles , chivas , Coca . <br/>
 <b>Christophe (Tofa)</b>: samossa sy saucisses.<br/>
 <b>Patrice</b>: Fatana Barbecue.<br/>
-<b>Tyx, Nathalie, Dolphe</b>: gâteaux.<br/>
+<b>Tyx, Nathalie, Dolphe, Eric</b>: gâteaux.<br/>
 
 
         </Card.Text>
