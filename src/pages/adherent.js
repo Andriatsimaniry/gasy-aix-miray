@@ -26,7 +26,7 @@ const AdherentPage = () => {
             <tr>
               <td>RALAIMIHAOTRA</td>
               <td>Patrice</td>
-              <td>Vice Président</td>
+              <td>Conseiller spécial</td>
               <td>06.03.99.04.55</td>
               <td>A completer</td>
             </tr>
