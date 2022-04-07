@@ -53,6 +53,7 @@ const Profile = () => (
 <b>Fify ( Ratsivoson ) </b>: chipolatas , merguez, vary . Boissons : Coca Ice Tea , Orangina .<br/>
 <b>Ndrina</b>  :  Charbon , sacs poubelles , chivas , Coca . <br/>
 <b>Christophe (Tofa)</b>: samossa sy saucisses.<br/>
+<b>Patrice</b>: Fatana Barbecue.<br/>
 
 
         </Card.Text>
