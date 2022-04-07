@@ -49,7 +49,7 @@ const Profile = () => (
 <b>Rojo sy Tiana</b> :  Heineken, Desperados, Vin   . Desserts<br/>
 <b>Nirina</b> : Voanjobory , Café, Sakay<br/>
 <b>Zo</b> : Lasagne, Heineken, Coca<br/>
-<b>Niry</b> : Chivas , frites ( aza adino ny mahandro azy), Poulet KFC)<br/>
+<b>Niry</b> : Chivas , frites ( aza adino ny mahandro azy), Poulet KFC), Friteuse éléctrique<br/>
 <b>Fify ( Ratsivoson ) </b>: chipolatas , merguez, vary . Boissons : Coca Ice Tea , Orangina .<br/>
 <b>Ndrina</b>  :  Charbon , sacs poubelles , chivas , Coca . <br/>
 <b>Christophe (Tofa)</b>: samossa sy saucisses.<br/>
