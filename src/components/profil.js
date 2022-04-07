@@ -15,6 +15,25 @@ const Profile = () => (
   
     <Card>
       <Card.Body>
+      <Card.Title><h3>JOURNÉE RÉCRÉATIVE ORGANISEE PAR L'ASSOCIATION GAM<br/> 
+          du 09 Avril 2022<br/>
+            Adresse: Salle des Fêtes Eglise Saint Jean<br/>
+            Avenue de l'Europe en Face Super U<br/>
+            de 11H00 à 21H00<br/>
+          </h3>
+          </Card.Title>
+         <h4>LISTE SAKAFO :</h4>   
+
+<b>Rojo sy Tiana</b> :  Heineken, Desperados, Vin   . Desserts<br/>
+<b>Nirina</b> : Voanjobory , Café, Sakay<br/>
+<b>Zo</b> : Lasagne, Heineken, Coca<br/>
+<b>Niry</b> : Chivas , frites ( aza adino ny mahandro azy), Poulet KFC), Friteuse éléctrique<br/>
+<b>Fify ( Ratsivoson ) </b>: chipolatas , merguez, vary . Boissons : Coca Ice Tea , Orangina .<br/>
+<b>Ndrina</b>  :  Charbon , sacs poubelles , chivas , Coca . <br/>
+<b>Christophe (Tofa)</b>: samossa sy saucisses.<br/>
+<b>Patrice</b>: Fatana Barbecue.<br/>
+<b>Tyx, Nathalie, Dolphe, Eric</b>: gâteaux.<br/>
+<br/>
       <Card.Title><h3>Rapport réunion du  10/03/2022 Chez Nirina</h3></Card.Title>
         <Card.Text>Ny tonga nanatrika ny fivoriana :
         <ol>
@@ -37,25 +56,7 @@ const Profile = () => (
             Misaotra antsika rehetra!<br/>
             Nirina tél: 06.28.06.03.13
           </p>
-          <Card.Title><h3>JOURNÉE RÉCRÉATIVE ORGANISEE PAR L'ASSOCIATION GAM<br/> 
-          du 09 Avril 2022<br/>
-            Adresse: Salle des Fêtes Eglise Saint Jean<br/>
-            Avenue de l'Europe en Face Super U<br/>
-            de 11H00 à 21H00<br/>
-          </h3>
-          </Card.Title>
-         <h4>LISTE SAKAFO :</h4>   
-
-<b>Rojo sy Tiana</b> :  Heineken, Desperados, Vin   . Desserts<br/>
-<b>Nirina</b> : Voanjobory , Café, Sakay<br/>
-<b>Zo</b> : Lasagne, Heineken, Coca<br/>
-<b>Niry</b> : Chivas , frites ( aza adino ny mahandro azy), Poulet KFC), Friteuse éléctrique<br/>
-<b>Fify ( Ratsivoson ) </b>: chipolatas , merguez, vary . Boissons : Coca Ice Tea , Orangina .<br/>
-<b>Ndrina</b>  :  Charbon , sacs poubelles , chivas , Coca . <br/>
-<b>Christophe (Tofa)</b>: samossa sy saucisses.<br/>
-<b>Patrice</b>: Fatana Barbecue.<br/>
-<b>Tyx, Nathalie, Dolphe, Eric</b>: gâteaux.<br/>
-
+          
 
         </Card.Text>
       </Card.Body>
