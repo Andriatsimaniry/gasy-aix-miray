@@ -56,14 +56,14 @@ const AdherentPage = () => {
               <td>Joro Rojo</td>
               <td>Trésorière</td>
               <td>06.13.03.25.36</td>
-              <td>A completer</td>
+              <td>rojo.jessica@ymail.com</td>
             </tr>
             <tr>
               <td>RAHAERISOA</td>
               <td>Odette</td>
               <td>Trésorière adjointe</td>
               <td>06.79.83.61.58</td>
-              <td>A completer</td>
+              <td>odette.rahari@hotmail.fr</td>
             </tr>
             <tr>
               <td>RAKOTOZANANY</td>

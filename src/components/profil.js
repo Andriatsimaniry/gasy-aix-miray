@@ -2,7 +2,7 @@ import React from "react";
 import { getUser } from "../services/auth";
 // import { Contener } from "./layout.module.css";
 import { Container, Card } from "react-bootstrap";
-
+// import  downloadFile   from './public/static/Statut.pdf'
 const Profile = () => (
   <Container>
   <div>
@@ -23,12 +23,12 @@ const Profile = () => (
           </h3>
           </Card.Title>
          <h4>LISTE SAKAFO :</h4>  
-
+         {/* <a href={ downloadFile } download> Télécharger</a> */}
 <b>Rojo sy Tiana</b> :  Heineken, Desperados, Vin   . Desserts<br/>
 <b>Nirina</b> : Voanjobory , Café, Sakay<br/>
 <b>Zo</b> : Lasagne, Heineken, Coca<br/>
 <b>Niry</b> : Chivas , frites ( aza adino ny mahandro azy), Poulet KFC), Friteuse éléctrique<br/>
-<b>Fify ( Ratsivoson ) </b>: chipolatas , merguez, vary . Boissons : Coca Ice Tea , Orangina .<br/>
+<b>Fify ( Fiononana ) </b>: chipolatas , merguez, vary . Boissons : Coca Ice Tea , Orangina .<br/>
 <b>Ndrina</b>  :  Charbon , sacs poubelles , chivas , Coca . <br/>
 <b>Christophe (Tofa)</b>: samossa sy saucisses.<br/>
 <b>Patrice</b>: Fatana Barbecue.<br/>
