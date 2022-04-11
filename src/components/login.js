@@ -18,7 +18,7 @@ class Login extends React.Component {
   };
   render() {
     if (isLoggedIn()) {
-      navigate(`/app/profile`);
+      navigate(`/app/adherent`);
     }
     return (
       <Container>
