@@ -208,15 +208,15 @@ const AdherentPage = () => {
               <td></td>
             </tr>
             <tr>
-              <td>RANDRIANARISON</td>
+              <td>ANDRIAMBOLOLONA</td>
               <td>Hery</td>
               <td>Membre</td>
               <td></td>
               <td></td>
             </tr>
             <tr>
-              <td>RANDRIANARISON</td>
-              <td>Nirina</td>
+              <td>ANDRIAMBOLOLONA</td>
+              <td>Haingo</td>
               <td>Membre</td>
               <td></td>
               <td></td>
