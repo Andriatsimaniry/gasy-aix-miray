@@ -23,7 +23,7 @@ const AdherentPage = () => {
               <td>06.66.69.37.50</td>
               <td>rakotozafy.eric@yahoo.fr</td>
             </tr><tr>
-              <td></td>
+              <td>RAKOTOMANGA</td>
               <td>Robertine</td>
               <td>Membre</td>
               <td></td>
