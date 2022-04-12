@@ -22,6 +22,12 @@ const AdherentPage = () => {
               <td>Président</td>
               <td>06.66.69.37.50</td>
               <td>rakotozafy.eric@yahoo.fr</td>
+            </tr><tr>
+              <td></td>
+              <td>Robertine</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
             </tr>
             <tr>
               <td>RALAIMIHAOTRA</td>
@@ -33,9 +39,16 @@ const AdherentPage = () => {
             <tr>
               <td>RANDRIAMBOLOLONTSOA</td>
               <td>Andriatsimaniry</td>
-              <td>Vice Président</td>
+              <td>Vice-Président</td>
               <td>06.69.68.45.37</td>
               <td>niryomega@free.fr</td>
+            </tr>
+            <tr>
+              <td>RANDRIAMBOLOLONTSOA</td>
+              <td>Noro</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
             </tr>
             <tr>
               <td>RAMANGASON</td>
@@ -43,6 +56,13 @@ const AdherentPage = () => {
               <td>Secrétaire</td>
               <td>06.28.06.03.13</td>
               <td>nramangason@yahoo.com</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Christophe</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
             </tr>
             <tr>
               <td>REMACLY</td>
@@ -80,6 +100,13 @@ const AdherentPage = () => {
               <td>zo_andria@yahoo.com</td>
             </tr>
             <tr>
+              <td>ANDRY</td>
+              <td>Rinah</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
               <td>ANDRIANIRIANA</td>
               <td>Marc</td>
               <td>Conseiller</td>
@@ -99,6 +126,107 @@ const AdherentPage = () => {
               <td>Conseiller</td>
               <td>06.56.86.37.86</td>
               <td>patricet158@gmail.com</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Liva</td>
+              <td>Membre</td>
+              <td>06.35.28.25.89</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Lova</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            
+           
+            <tr>
+              <td></td>
+              <td>Arlette</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Christophe</td>
+              <td>Membre</td>
+              <td></td>
+              <td>crristophe@hotmail.com</td>
+            </tr>
+            
+            <tr>
+              <td></td>
+              <td>Hermine</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Tiana</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Rojo</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Nomena</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>RAKOTOZANANY</td>
+              <td>Holy</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>RATSIVOSON</td>
+              <td>Fiononana</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Joe</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>RANDRIANARISON</td>
+              <td>Hery</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>RANDRIANARISON</td>
+              <td>Nirina</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Ony</td>
+              <td>Membre</td>
+              <td></td>
+              <td>arisonmiah@gmail.com</td>
             </tr>
           </tbody>
         </table>
