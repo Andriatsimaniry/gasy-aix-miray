@@ -27,7 +27,7 @@ const AdherentPage = () => {
               <td>Roberthine</td>
               <td>Membre</td>
               <td>06.95.27.67.27</td>
-              <td></td>
+              <td>madasoa@gmail.com</td>
             </tr>
             <tr>
               <td>RALAIMIHAOTRA</td>
@@ -162,7 +162,7 @@ const AdherentPage = () => {
               <td>Arlette</td>
               <td>Membre</td>
               <td>06.56.82.13.09</td>
-              <td></td>
+              <td>Arlettehouex77@gmail.com</td>
             </tr>
             <tr>
               <td></td>
