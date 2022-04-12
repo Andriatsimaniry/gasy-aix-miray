@@ -23,10 +23,10 @@ const AdherentPage = () => {
               <td>06.66.69.37.50</td>
               <td>rakotozafy.eric@yahoo.fr</td>
             </tr><tr>
-              <td>RAKOTOMANGA</td>
-              <td>Robertine</td>
+              <td>RAMIARISOA</td>
+              <td>Roberthine</td>
               <td>Membre</td>
-              <td></td>
+              <td>06.95.27.67.27</td>
               <td></td>
             </tr>
             <tr>
@@ -86,6 +86,13 @@ const AdherentPage = () => {
               <td>odette.rahari@hotmail.fr</td>
             </tr>
             <tr>
+              <td>RAHAERISOA</td>
+              <td>Joe</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
               <td>RAKOTOZANANY</td>
               <td>Alain ADolphe</td>
               <td>Conseiller</td>
@@ -93,11 +100,18 @@ const AdherentPage = () => {
               <td>adolpherakotozanany4@gmail.com</td>
             </tr>
             <tr>
+              <td>RAKOTOZANANY</td>
+              <td>Holy</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
               <td>ANDRY</td>
               <td> Luc </td>
               <td>Conseiller</td>
               <td>06.21.32.57.72</td>
-              <td>zo_andria@yahoo.com</td>
+              <td>zo_andri@yahoo.com</td>
             </tr>
             <tr>
               <td>ANDRY</td>
@@ -144,10 +158,10 @@ const AdherentPage = () => {
             
            
             <tr>
-              <td></td>
+              <td>HOUEIX</td>
               <td>Arlette</td>
               <td>Membre</td>
-              <td></td>
+              <td>06.56.82.13.09</td>
               <td></td>
             </tr>
             <tr>
@@ -156,6 +170,20 @@ const AdherentPage = () => {
               <td>Membre</td>
               <td></td>
               <td>crristophe@hotmail.com</td>
+            </tr>
+            <tr>
+              <td>ANDRIAMBOLOLONA</td>
+              <td>Hery</td>
+              <td>Membre</td>
+              <td>06.22.75.63.94</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>ANDRIAMBOLOLONA</td>
+              <td>Haingo</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
             </tr>
             
             <tr>
@@ -186,13 +214,7 @@ const AdherentPage = () => {
               <td></td>
               <td></td>
             </tr>
-            <tr>
-              <td>RAKOTOZANANY</td>
-              <td>Holy</td>
-              <td>Membre</td>
-              <td></td>
-              <td></td>
-            </tr>
+            
             <tr>
               <td>RATSIVOSON</td>
               <td>Fiononana</td>
@@ -200,32 +222,13 @@ const AdherentPage = () => {
               <td></td>
               <td></td>
             </tr>
+            
+            
             <tr>
-              <td></td>
-              <td>Joe</td>
-              <td>Membre</td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>ANDRIAMBOLOLONA</td>
-              <td>Hery</td>
-              <td>Membre</td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>ANDRIAMBOLOLONA</td>
-              <td>Haingo</td>
-              <td>Membre</td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
+              <td>RAKOTOARISON</td>
               <td>Ony</td>
               <td>Membre</td>
-              <td></td>
+              <td>06.86.66.34.00</td>
               <td>arisonmiah@gmail.com</td>
             </tr>
           </tbody>
