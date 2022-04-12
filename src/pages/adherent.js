@@ -128,14 +128,14 @@ const AdherentPage = () => {
               <td>patricet158@gmail.com</td>
             </tr>
             <tr>
-              <td></td>
+              <td>RAOERA</td>
               <td>Liva</td>
               <td>Membre</td>
               <td>06.35.28.25.89</td>
               <td></td>
             </tr>
             <tr>
-              <td></td>
+              <td>RAOERA</td>
               <td>Lova</td>
               <td>Membre</td>
               <td></td>
