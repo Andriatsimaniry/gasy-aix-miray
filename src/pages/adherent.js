@@ -200,13 +200,7 @@ const AdherentPage = () => {
               <td></td>
               <td></td>
             </tr>
-            <tr>
-              <td></td>
-              <td>Rojo</td>
-              <td>Membre</td>
-              <td></td>
-              <td></td>
-            </tr>
+
             <tr>
               <td></td>
               <td>Nomena</td>
