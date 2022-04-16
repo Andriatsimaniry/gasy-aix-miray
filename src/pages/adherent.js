@@ -165,7 +165,7 @@ const AdherentPage = () => {
               <td>Arlettehouex77@gmail.com</td>
             </tr>
             <tr>
-              <td></td>
+              <td>ANDRIANASOLOARIJAONA</td>
               <td>Christophe</td>
               <td>Membre</td>
               <td>06.41.47.33.50</td>
