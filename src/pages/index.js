@@ -17,6 +17,7 @@ import christopheImage from "../images/gasy-miray-christophe.jpg";
 import malalaImage from "../images/gasy-miray-malala.jpg";
 import tahinaImage from "../images/gasy-miray-tahina.jpg";
 import fifyImage from "../images/gasy-miray-fify.jpg";
+import membreImage from "../images/gasy-miray-membre.jpg";
 
 function IndexPage() {
   return (
@@ -25,6 +26,28 @@ function IndexPage() {
         <h3 className="text-center">Bureau du GAM et Conseillers</h3>
 
         {/* Eric sy Patou  */}
+        <Row>
+          <Col md={12}>
+            <Container>
+              <Card className="mb-3 w-100 h-100">
+                <Image
+                  src={membreImage}
+                  className="mx-auto d-block"
+                  alt="membre image"
+                  fluid
+                />
+                <Card.Body>
+                  <Card.Title>
+                    <h3>Membre du Conseil d'Administration</h3>{" "}
+                  </Card.Title>
+                  <Card.Text>
+                    <p>G.A.M</p>
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Container>
+          </Col>
+</Row>
         <Row>
           <Col md={6}>
             <Container>
