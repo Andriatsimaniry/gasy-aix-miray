@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 // import { StaticImage } from "gatsby-plugin-image";
 import { Container, Card, Row, Col, Image } from "react-bootstrap";
 
-import ericImage from "../images/gasy-miray-eric1.png";
+import ericImage from "../images/gasy-miray-eric.jpg";
 import niryImage from "../images/gasy-miray-niry.jpg";
 import nirinaImage from "../images/gasy-miray-nirina.jpg";
 import zoImage from "../images/gasy-miray-zo.jpg";
@@ -13,10 +13,10 @@ import rojoImage from "../images/gasy-miray-rojo.jpg";
 import odetteImage from "../images/gasy-miray-odette.jpg";
 import nathalieImage from "../images/gasy-miray-nathalie.jpg";
 import totoloImage from "../images/gasy-miray-totolo.jpg";
-import christopheImage from "../images/gasy-miray-christophe";
-import malalaImage from "../images/gasy-miray-malala";
-import tahinaImage from "../images/gasy-miray-tahina";
-import fifyImage from "../images/gasy-miray-fify";
+import christopheImage from "../images/gasy-miray-christophe.jpg";
+import malalaImage from "../images/gasy-miray-malala.jpg";
+import tahinaImage from "../images/gasy-miray-tahina.jpg";
+import fifyImage from "../images/gasy-miray-fify.jpg";
 
 function IndexPage() {
   return (
