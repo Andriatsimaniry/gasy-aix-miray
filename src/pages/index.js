@@ -4,8 +4,6 @@ import Layout from "../components/layout";
 import { Container, Card, Row, Col, Image } from "react-bootstrap";
 
 import ericImage from "../images/gasy-miray-eric1.png";
-import patouImage from "../images/gasy-miray-patou.png";
-import dolpheImage from "../images/gasy-miray-dolphe.png";
 import niryImage from "../images/gasy-miray-niry.jpg";
 import nirinaImage from "../images/gasy-miray-nirina.jpg";
 import zoImage from "../images/gasy-miray-zo.jpg";
@@ -15,6 +13,10 @@ import rojoImage from "../images/gasy-miray-rojo.jpg";
 import odetteImage from "../images/gasy-miray-odette.jpg";
 import nathalieImage from "../images/gasy-miray-nathalie.jpg";
 import totoloImage from "../images/gasy-miray-totolo.jpg";
+import christopheImage from "../images/gasy-miray-christophe";
+import malalaImage from "../images/gasy-miray-malala";
+import tahinaImage from "../images/gasy-miray-tahina";
+import fifyImage from "../images/gasy-miray-fify";
 
 function IndexPage() {
   return (
@@ -49,29 +51,6 @@ function IndexPage() {
             <Container>
               <Card className="mb-3">
                 <Image
-                  src={patouImage}
-                  className="card-img-top"
-                  alt="patou image"
-                  fluid
-                />
-                <Card.Body>
-                  <Card.Title>
-                    <h3>Conseiller Spécial</h3>{" "}
-                  </Card.Title>
-                  <Card.Text>RALAIMIHAOTRA Patrice.</Card.Text>
-                </Card.Body>
-              </Card>
-            </Container>
-          </Col>
-        </Row>
-
-        {/* Deux autres membre */}
-        {/* Niry sy Nirina  */}
-        <Row>
-          <Col md={6}>
-            <Container>
-              <Card className="mb-3">
-                <Image
                   src={niryImage}
                   className="card-img-top"
                   alt="niry image"
@@ -86,7 +65,11 @@ function IndexPage() {
               </Card>
             </Container>
           </Col>
+        </Row>
 
+        {/* Deux autres membre */}
+        {/* Niry sy Nirina  */}
+        <Row>
           <Col md={6}>
             <Container>
               <Card className="mb-3">
@@ -98,18 +81,14 @@ function IndexPage() {
                 />
                 <Card.Body>
                   <Card.Title>
-                    <h3>Secrétaire</h3>
+                    <h3>Secrétaire</h3>{" "}
                   </Card.Title>
                   <Card.Text>RAMANGASON Nirina.</Card.Text>
                 </Card.Body>
               </Card>
             </Container>
           </Col>
-        </Row>
 
-        {/* Deux autres membre */}
-        {/* Nathalie sy Rojo  */}
-        <Row>
           <Col md={6}>
             <Container>
               <Card className="mb-3">
@@ -128,7 +107,11 @@ function IndexPage() {
               </Card>
             </Container>
           </Col>
+        </Row>
 
+        {/* Deux autres membre */}
+        {/* Nathalie sy Rojo  */}
+        <Row>
           <Col md={6}>
             <Container>
               <Card className="mb-3">
@@ -147,11 +130,7 @@ function IndexPage() {
               </Card>
             </Container>
           </Col>
-        </Row>
 
-        {/* Deux autres membre */}
-        {/* Rojo sy Odette  */}
-        <Row>
           <Col md={6}>
             <Container>
               <Card className="mb-3">
@@ -170,21 +149,44 @@ function IndexPage() {
               </Card>
             </Container>
           </Col>
+        </Row>
 
+        {/* Deux autres membre */}
+        {/* Rojo sy Odette  */}
+        <Row>
           <Col md={6}>
             <Container>
               <Card className="mb-3">
                 <Image
-                  src={dolpheImage}
+                  src={tahinaImage}
                   className="card-img-top"
-                  alt="dolphe image"
+                  alt="tahina image"
                   fluid
                 />
                 <Card.Body>
                   <Card.Title>
                     <h3>Conseiller</h3>
                   </Card.Title>
-                  <Card.Text>RAKOTOZANANY Alain ADolphe</Card.Text>
+                  <Card.Text>RADAVIDRA Tahinaharifomba</Card.Text>
+                </Card.Body>
+              </Card>
+            </Container>
+          </Col>
+
+          <Col md={6}>
+            <Container>
+              <Card className="mb-3">
+                <Image
+                  src={christopheImage}
+                  className="card-img-top"
+                  alt="christophe image"
+                  fluid
+                />
+                <Card.Body>
+                  <Card.Title>
+                    <h3>Conseiller</h3>
+                  </Card.Title>
+                  <Card.Text>ANDRIANASOLOARIJAONA Christophe</Card.Text>
                 </Card.Body>
               </Card>
             </Container>
@@ -274,6 +276,46 @@ function IndexPage() {
             </Container>
           </Col>
         </Row>
+        <Row>
+          <Col md={6}>
+            <Container>
+              <Card className="mb-3">
+                <Image
+                  src={malalaImage}
+                  className="card-img-top"
+                  alt="malala image"
+                  fluid
+                />
+                <Card.Body>
+                  <Card.Title>
+                    <h3>Conseillère</h3>{" "}
+                  </Card.Title>
+                  <Card.Text>UBACH Haingotiana malala.</Card.Text>
+                </Card.Body>
+              </Card>
+            </Container>
+          </Col>
+
+          <Col md={6}>
+            <Container>
+              <Card className="mb-3">
+                <Image
+                  src={fifyImage}
+                  className="card-img-top"
+                  alt="fify image"
+                  fluid
+                />
+                <Card.Body>
+                  <Card.Title>
+                    <h3>Conseillère</h3>{" "}
+                  </Card.Title>
+                  <Card.Text>RATSIVOSON Mamy Fiononana.</Card.Text>
+                </Card.Body>
+              </Card>
+            </Container>
+          </Col>
+        </Row>
+        
       </Layout>
       ,
     </Container>
