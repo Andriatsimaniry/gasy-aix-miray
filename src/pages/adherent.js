@@ -29,13 +29,7 @@ const AdherentPage = () => {
               <td>06.95.27.67.27</td>
               <td>madasoa@gmail.com</td>
             </tr>
-            <tr>
-              <td>RALAIMIHAOTRA</td>
-              <td>Patrice</td>
-              <td>Conseiller spécial</td>
-              <td>06.03.99.04.55</td>
-              <td>A completer</td>
-            </tr>
+         
             <tr>
               <td>RANDRIAMBOLOLONTSOA</td>
               <td>Andriatsimaniry</td>
@@ -95,7 +89,7 @@ const AdherentPage = () => {
             <tr>
               <td>RAKOTOZANANY</td>
               <td>Alain ADolphe</td>
-              <td>Conseiller</td>
+              <td>Membre</td>
               <td>07.83.12.60.45</td>
               <td>adolpherakotozanany4@gmail.com</td>
             </tr>
@@ -142,6 +136,13 @@ const AdherentPage = () => {
               <td>patricet158@gmail.com</td>
             </tr>
             <tr>
+              <td>RADAVIDRA</td>
+              <td>Tahinaharifomba</td>
+              <td>Conseiller</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
               <td>RAOERA</td>
               <td>Liva</td>
               <td>Membre</td>
@@ -167,7 +168,7 @@ const AdherentPage = () => {
             <tr>
               <td>ANDRIANASOLOARIJAONA</td>
               <td>Christophe</td>
-              <td>Membre</td>
+              <td>Conseiller</td>
               <td>06.41.47.33.50</td>
               <td>crristophe@hotmail.com</td>
             </tr>
@@ -212,7 +213,7 @@ const AdherentPage = () => {
             <tr>
               <td>RATSIVOSON</td>
               <td>Fiononana</td>
-              <td>Membre</td>
+              <td>Conseillère</td>
               <td></td>
               <td></td>
             </tr>
@@ -236,6 +237,13 @@ const AdherentPage = () => {
               <td>Aiky</td>
               <td>Membre</td>
               <td>07.89.37.42.99</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>UBACH</td>
+              <td> Haingotiana Malala </td>
+              <td>Conseillère</td>
+              <td></td>
               <td></td>
             </tr>
           </tbody>
