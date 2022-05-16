@@ -18,6 +18,7 @@ import malalaImage from "../images/gasy-miray-malala.jpg";
 import tahinaImage from "../images/gasy-miray-tahina.jpg";
 import fifyImage from "../images/gasy-miray-fify.jpg";
 import membreImage from "../images/gasy-miray-membre.jpg";
+import yenofaImage from "../images/gasy-miray-yenofa.jpg";
 
 function IndexPage() {
   return (
@@ -338,6 +339,26 @@ function IndexPage() {
             </Container>
           </Col>
         </Row>
+        <Row>
+          <Col md={6}>
+            <Container>
+              <Card className="mb-3">
+                <Image
+                  src={yenofaImage}
+                  className="card-img-top"
+                  alt="yenofa image"
+                  fluid
+                />
+                <Card.Body>
+                  <Card.Title>
+                    <h3>Conseillère Résponsable des Jeunes</h3>{" "}
+                  </Card.Title>
+                  <Card.Text>YENOFA Vahatriniaina.</Card.Text>
+                </Card.Body>
+              </Card>
+            </Container>
+          </Col>
+          </Row>
         
       </Layout>
       ,
