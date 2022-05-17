@@ -64,7 +64,7 @@ function IndexPage() {
                     <h3>Président</h3>{" "}
                   </Card.Title>
                   <Card.Text>
-                    <p>RAKOTOMANGA Patrick.</p>
+                    <p>RAKOTOMANGA Patrick</p>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -84,7 +84,7 @@ function IndexPage() {
                   <Card.Title>
                     <h3>Vice Président</h3>{" "}
                   </Card.Title>
-                  <Card.Text>RANDRIAMBOLOLONTSOA Andriatsimaniry.</Card.Text>
+                  <Card.Text>RANDRIAMBOLOLONTSOA Andriatsimaniry</Card.Text>
                 </Card.Body>
               </Card>
             </Container>
@@ -107,7 +107,7 @@ function IndexPage() {
                   <Card.Title>
                     <h3>Secrétaire</h3>{" "}
                   </Card.Title>
-                  <Card.Text>RAMANGASON Nirina.</Card.Text>
+                  <Card.Text>RAMANGASON Nirina</Card.Text>
                 </Card.Body>
               </Card>
             </Container>
@@ -126,7 +126,7 @@ function IndexPage() {
                   <Card.Title>
                     <h3>Secrétaire adjointe</h3>
                   </Card.Title>
-                  <Card.Text>REMACLY Nathalie.</Card.Text>
+                  <Card.Text>REMACLY Nathalie</Card.Text>
                 </Card.Body>
               </Card>
             </Container>
@@ -149,7 +149,7 @@ function IndexPage() {
                   <Card.Title>
                     <h3>Trésorière</h3>
                   </Card.Title>
-                  <Card.Text>MAURICE Joro Rojo.</Card.Text>
+                  <Card.Text>MAURICE Joro Rojo</Card.Text>
                 </Card.Body>
               </Card>
             </Container>
@@ -168,7 +168,7 @@ function IndexPage() {
                   <Card.Title>
                     <h3>Trésorière adjointe</h3>
                   </Card.Title>
-                  <Card.Text>RAHAERISOA Odette.</Card.Text>
+                  <Card.Text>RAHAERISOA Odette</Card.Text>
                 </Card.Body>
               </Card>
             </Container>
@@ -233,7 +233,7 @@ function IndexPage() {
                   <Card.Title>
                     <h3>Conseiller</h3>
                   </Card.Title>
-                  <Card.Text>Andry Luc.</Card.Text>
+                  <Card.Text>Andry Luc</Card.Text>
                 </Card.Body>
               </Card>
             </Container>
@@ -252,7 +252,7 @@ function IndexPage() {
                   <Card.Title>
                     <h3>Conseiller</h3>
                   </Card.Title>
-                  <Card.Text>Andrianiriana Marc.</Card.Text>
+                  <Card.Text>Andrianiriana Marc</Card.Text>
                 </Card.Body>
               </Card>
             </Container>
@@ -275,7 +275,7 @@ function IndexPage() {
                   <Card.Title>
                     <h3>Conseiller</h3>{" "}
                   </Card.Title>
-                  <Card.Text>RABARISON Hervé.</Card.Text>
+                  <Card.Text>RABARISON Hervé</Card.Text>
                 </Card.Body>
               </Card>
             </Container>
@@ -294,7 +294,7 @@ function IndexPage() {
                   <Card.Title>
                     <h3>Conseiller</h3>{" "}
                   </Card.Title>
-                  <Card.Text>TOTOLO Patrice.</Card.Text>
+                  <Card.Text>TOTOLO Patrice</Card.Text>
                 </Card.Body>
               </Card>
             </Container>
@@ -314,7 +314,7 @@ function IndexPage() {
                   <Card.Title>
                     <h3>Conseillère</h3>{" "}
                   </Card.Title>
-                  <Card.Text>UBACH Haingotiana malala.</Card.Text>
+                  <Card.Text>UBACH Haingotiana malala</Card.Text>
                 </Card.Body>
               </Card>
             </Container>
@@ -333,7 +333,7 @@ function IndexPage() {
                   <Card.Title>
                     <h3>Conseillère</h3>{" "}
                   </Card.Title>
-                  <Card.Text>RATSIVOSON Mamy Fiononana.</Card.Text>
+                  <Card.Text>RATSIVOSON Mamy Fiononana</Card.Text>
                 </Card.Body>
               </Card>
             </Container>
@@ -353,7 +353,7 @@ function IndexPage() {
                   <Card.Title>
                     <h3>Conseillère Résponsable des Jeunes</h3>{" "}
                   </Card.Title>
-                  <Card.Text>YENOFA Vahatriniaina.</Card.Text>
+                  <Card.Text>VAHATRINIAINA Yénofa</Card.Text>
                 </Card.Body>
               </Card>
             </Container>
