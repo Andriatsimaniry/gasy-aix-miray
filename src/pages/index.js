@@ -351,7 +351,7 @@ function IndexPage() {
                 />
                 <Card.Body>
                   <Card.Title>
-                    <h3>Conseillère Résponsable des Jeunes</h3>{" "}
+                    <h3>Conseillère Responsable des Jeunes</h3>{" "}
                   </Card.Title>
                   <Card.Text>VAHATRINIAINA Yénofa</Card.Text>
                 </Card.Body>
