@@ -19,6 +19,7 @@ import tahinaImage from "../images/gasy-miray-tahina.jpg";
 import fifyImage from "../images/gasy-miray-fify.jpg";
 import membreImage from "../images/gasy-miray-membre.jpg";
 import yenofaImage from "../images/gasy-miray-yenofa.jpg";
+import nyxImage from "../images/gasy-miray-nyx.jpg"
 
 function IndexPage() {
   return (
@@ -354,6 +355,25 @@ function IndexPage() {
                     <h3>Conseillère Responsable des Jeunes</h3>{" "}
                   </Card.Title>
                   <Card.Text>VAHATRINIAINA Yénofa</Card.Text>
+                </Card.Body>
+              </Card>
+            </Container>
+          </Col>
+          
+          <Col md={6}>
+            <Container>
+              <Card className="mb-3">
+                <Image
+                  src={nyxImage}
+                  className="card-img-top"
+                  alt="nyx image"
+                  fluid
+                />
+                <Card.Body>
+                  <Card.Title>
+                    <h3>Conseillère</h3>{" "}
+                  </Card.Title>
+                  <Card.Text>CAMPO Nirina (Nyx)</Card.Text>
                 </Card.Body>
               </Card>
             </Container>
