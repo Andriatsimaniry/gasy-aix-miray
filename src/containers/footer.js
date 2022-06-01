@@ -54,7 +54,7 @@ export function FooterContainer() {
           
           <Footer.Column>
             <Footer.Title>Social</Footer.Title>
-            <Footer.Link href="https://www.Facebook.com/" rel="noopener noreferrer" target="_blank">
+            <Footer.Link href="https://www.facebook.com/profile.php?id=100082028311964" rel="noopener noreferrer" target="_blank">
               <FaFacebook size="20" color="rgba(255, 255, 255, 0.5)" /> Facebook
             </Footer.Link>
             <Footer.Link href="https://www.instagram.com/" rel="noopener noreferrer" target="_blank">
