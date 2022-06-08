@@ -289,7 +289,7 @@ const AdherentPage = () => {
             </tr>
             <tr>
             <td>34</td>
-              <td></td>
+              <td>RAKOTOZAFY</td>
               <td> Sabine </td>
               <td>Membre</td>
               <td></td>
