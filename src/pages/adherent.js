@@ -269,7 +269,7 @@ const AdherentPage = () => {
             </tr>
             <tr>
               <td>RAKOTOZAFY</td>
-              <td> nANDRASANA </td>
+              <td> Nandrasana </td>
               <td>Membre</td>
               <td></td>
               <td></td>
