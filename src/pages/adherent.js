@@ -283,7 +283,7 @@ const AdherentPage = () => {
             <td>33</td>
               <td></td>
               <td> Amélie</td>
-              <td>Conseillère</td>
+              <td>Membre</td>
               <td></td>
               <td></td>
             </tr>
