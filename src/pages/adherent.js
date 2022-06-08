@@ -246,6 +246,41 @@ const AdherentPage = () => {
               <td></td>
               <td></td>
             </tr>
+            <tr>
+              <td></td>
+              <td> Amélie</td>
+              <td>Conseillère</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td> Sabine </td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td> Nicole </td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>RAKOTOZAFY</td>
+              <td> nANDRASANA </td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>RAKOTOZAFY</td>
+              <td> Hanitra </td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
           </tbody>
         </table>
       </div>
