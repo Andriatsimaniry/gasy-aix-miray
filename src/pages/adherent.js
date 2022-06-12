@@ -327,6 +327,49 @@ const AdherentPage = () => {
               <td>06.44.70.31.41</td>
               <td></td>
             </tr>
+            <tr>
+            <td>39</td>
+              <td>RALAIMIHOATRA</td>
+              <td>Patrice</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+            <td>40</td>
+              <td>RATSIVOSON</td>
+              <td>Marcio</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+            <td>41</td>
+              <td>ANDRIANIRIANA</td>
+              <td>Tya</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+            <td>42</td>
+              <td></td>
+              <td>Andry</td>
+              <td>Lucky</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+            <td>43</td>
+              <td>FLOREA</td>
+              <td>Olga</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            
+            
+            
           </tbody>
         </table>
       </div>
