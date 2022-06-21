@@ -91,7 +91,7 @@ const AdherentPage = () => {
             </tr>
             <tr>
             <td>10</td>
-              <td>RAHAERISOA</td>
+              <td>SOLOHARY</td>
               <td>Joe</td>
               <td>Membre</td>
               <td></td>
@@ -132,7 +132,7 @@ const AdherentPage = () => {
             <tr>
             <td>15</td>
               <td>ANDRIANIRIANA</td>
-              <td>Marc</td>
+              <td>Marc (Tyx)</td>
               <td>Conseiller</td>
               <td>06.45.48.40.67</td>
               <td>tyx13090@yahoo.fr</td>
@@ -375,7 +375,119 @@ const AdherentPage = () => {
               <td></td>
               <td></td>
             </tr>
-            
+            <tr>
+            <td>45</td>
+              <td>RANDRIAMBOLOLONTSOA</td>
+              <td>Andotiana</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+            <td>46</td>
+              <td>RANDRIAMBOLOLONTSOA</td>
+              <td>Lova</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+            <td>47</td>
+              <td>RAMANANTSOA</td>
+              <td>Yann</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+            <td>48</td>
+              <td>TOLOJANAHARY</td>
+              <td>Fitahiana</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+            <td>49</td>
+              <td>RAHANIMBOLOLONA</td>
+              <td>Fanou</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+            <td>50</td>
+              <td>RATSIVOSON</td>
+              <td>Judia</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+            <td>51</td>
+              <td>RANAIVOSON</td>
+              <td>Ndrina</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+            <td>52</td>
+              <td>GUIMBRETIERE</td>
+              <td>Paula</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+            <td>53</td>
+              <td>RAKOTOARISOA</td>
+              <td>Mioty Fitahiana</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+            <td>54</td>
+              <td></td>
+              <td>Kanto</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+            <td>55</td>
+              <td></td>
+              <td>Cedric</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+            <td>56</td>
+              <td>RALAIMIHOATRA</td>
+              <td>Jocelyn</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+            <td>57</td>
+              <td>RAKOTOZANANY</td>
+              <td>Alan</td>
+              <td>Membre</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+            <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
             
             
           </tbody>
