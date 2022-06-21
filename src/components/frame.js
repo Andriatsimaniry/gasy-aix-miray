@@ -4,7 +4,7 @@ const Frame = ({ children }) => {
   return (   
     <div>     
       <h1>Liste du Bureau G.A.M et Membres</h1>
-      <h3>Nombre: 44</h3>
+      <h3>Nombre: 57</h3>
       { children }
     </div>
     
